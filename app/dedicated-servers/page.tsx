@@ -1,3 +1,3 @@
 export default function DediServers() {
-  return <div>Here are some dedicated servers.</div>;
+  return <div>Here are some dedicated server options.</div>;
 }
