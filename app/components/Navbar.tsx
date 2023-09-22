@@ -22,7 +22,7 @@ export default function Navbar() {
       </Link>
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex text-sm">
+      <nav className="hidden md:flex text-md">
         <ul className="flex justify-end items-center space-x-4">
           <li>
             <Link
@@ -134,7 +134,7 @@ export default function Navbar() {
               </li>
               <li
                 onClick={() => setNav(false)}
-                className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[35%]"
+                className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[45%]"
               >
                 <Link href="/">Client Area</Link>
               </li>
