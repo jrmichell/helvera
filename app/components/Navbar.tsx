@@ -7,6 +7,7 @@ import Logo from "../../public/images/logo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 export default function Navbar() {
+  // useState hook for setting the navigation state
   const [nav, setNav] = useState(false);
 
   // Toggle mobile navigation
@@ -15,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-dark flex flex-row justify-between p-4 shadow-offset shadow-lg">
+    <div className="bg-dark flex flex-row justify-between p-4">
       {/* Logo */}
       <Link href="/" className="flex justify-start">
         <Image src={Logo} alt="Logo" width={50} height={50} />

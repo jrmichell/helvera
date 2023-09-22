@@ -1,15 +1,12 @@
+import Image from "next/image";
+import Hero from "../public/images/hero.webp";
+
 export default function Home() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <h1>Title</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          incidunt modi labore ipsum, repellendus ex ab perferendis, delectus
-          eum ipsam nesciunt quas deleniti laboriosam molestias inventore
-          suscipit. Necessitatibus, quibusdam odio!
-        </p>
+        <Image src={Hero} alt="Hero Image" className="w-full" />
       </section>
       {/* Services */}
       <section></section>
