@@ -11,9 +11,9 @@ export default function Navbar() {
   const [nav, setNav] = useState(false);
 
   // Toggle mobile navigation
-  const toggleNav = () => {
+  function toggleNav(): void {
     setNav(!nav);
-  };
+  }
 
   return (
     <div className="bg-dark flex flex-row justify-between p-4">
@@ -103,36 +103,31 @@ export default function Navbar() {
 
           <nav>
             <ul className="uppercase text-sm">
-              <li
-                onClick={() => setNav(false)}
-                className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300"
-              >
-                <Link href="/">Home</Link>
-              </li>
-              <li
-                onClick={() => setNav(false)}
-                className="pl-5 pt-8 text-primary font-bold text-sm cursor-pointer hover:text-secondary duration-300"
-              >
-                <Link href="/dedicated-servers">Dedicated Servers</Link>
-              </li>
-              <li
-                onClick={() => setNav(false)}
-                className="pl-5 pt-8 text-primary font-bold text-sm cursor-pointer hover:text-secondary duration-300"
-              >
-                <Link href="/web-hosting">Web Hosting</Link>
-              </li>
-              <li
-                onClick={() => setNav(false)}
-                className="pl-5 pt-8 text-primary font-bold text-sm cursor-pointer hover:text-secondary duration-300"
-              >
-                <Link href="/vps">VPS</Link>
-              </li>
-              <li
-                onClick={() => setNav(false)}
-                className="pl-5 pt-8 text-primary font-bold text-sm cursor-pointer hover:text-secondary duration-300"
-              >
-                <Link href="/game-servers">Game Servers</Link>
-              </li>
+              <Link onClick={() => setNav(false)} href="/">
+                <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
+                  Home
+                </li>
+              </Link>
+              <Link onClick={() => setNav(false)} href="/dedicated-servers">
+                <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
+                  Dedicated Servers
+                </li>
+              </Link>
+              <Link onClick={() => setNav(false)} href="/web-hosting">
+                <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
+                  Web Hosting
+                </li>
+              </Link>
+              <Link onClick={() => setNav(false)} href="/vps">
+                <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
+                  VPS
+                </li>
+              </Link>
+              <Link onClick={() => setNav(false)} href="/game-servers">
+                <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
+                  Game Servers
+                </li>
+              </Link>
               <li
                 onClick={() => setNav(false)}
                 className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[45%]"
