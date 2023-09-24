@@ -9,11 +9,13 @@ export default function Home() {
         <Image src={Hero} alt="Hero Image" className="w-full" />
       </section>
       {/* Services */}
-      <section></section>
+      <section>Services</section>
       {/* Advantages */}
-      <section></section>
+      <section>Advantages</section>
       {/* Features */}
-      <section>{/* Use Grid for Features */}</section>
+      <section>{/* Use Grid for Features */}Features</section>
+      {/* Partners and Vendors */}
+      <section>Partners and Vendors</section>
     </div>
   );
 }
