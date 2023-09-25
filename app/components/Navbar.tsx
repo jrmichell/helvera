@@ -103,37 +103,36 @@ export default function Navbar() {
 
           <nav>
             <ul className="uppercase text-sm">
-              <Link onClick={() => setNav(false)} href="/">
+              <Link onClick={toggleNav} href="/">
                 <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
                   Home
                 </li>
               </Link>
-              <Link onClick={() => setNav(false)} href="/dedicated-servers">
+              <Link onClick={toggleNav} href="/dedicated-servers">
                 <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
                   Dedicated Servers
                 </li>
               </Link>
-              <Link onClick={() => setNav(false)} href="/web-hosting">
+              <Link onClick={toggleNav} href="/web-hosting">
                 <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
                   Web Hosting
                 </li>
               </Link>
-              <Link onClick={() => setNav(false)} href="/vps">
+              <Link onClick={toggleNav} href="/vps">
                 <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
                   VPS
                 </li>
               </Link>
-              <Link onClick={() => setNav(false)} href="/game-servers">
+              <Link onClick={toggleNav} href="/game-servers">
                 <li className="pl-5 pt-8 text-sm cursor-pointer text-primary font-bold hover:text-secondary duration-300">
                   Game Servers
                 </li>
               </Link>
-              <li
-                onClick={() => setNav(false)}
-                className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[45%]"
-              >
-                <Link href="/">Client Area</Link>
-              </li>
+              <Link onClick={toggleNav} href="/">
+                <li className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[45%]">
+                  Client Area
+                </li>
+              </Link>
             </ul>
           </nav>
         </div>
