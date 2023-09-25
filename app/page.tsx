@@ -59,7 +59,7 @@ export default function Home() {
             <Link href="/dedicated-servers">
               <Card
                 title="Dedicated Servers"
-                content="High performing, multipurpose dedicated servers made for you."
+                content="High performing, multipurpose dedicated servers."
               >
                 <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
                   View Pricing
@@ -69,7 +69,7 @@ export default function Home() {
             <Link href="/vps">
               <Card
                 title="Virtual Private Servers"
-                content="Are you looking for an affordable, yet powerful virtual server?"
+                content="Looking for an affordable, yet powerful virtual machine?"
               >
                 <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
                   View Pricing
