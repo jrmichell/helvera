@@ -5,37 +5,19 @@ import Panel from "./components/Panel";
 import { FaServer, FaHandHoldingMedical } from "react-icons/fa";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { MdManageAccounts } from "react-icons/md";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       {/* Hero */}
+      {/* TODO: Finish Hero */}
       <section>
         <Image src={Hero} alt="Hero Image" className="w-full" />
       </section>
       {/* Services */}
-      <section className="mt-5">
-        <div className="flex justify-center items-center">
-          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
-            <Card
-              title="Services"
-              content="Here are our services we provide."
-            />
-            <Card
-              title="Services"
-              content="Here are our services we provide."
-            />
-            <Card
-              title="Services"
-              content="Here are our services we provide."
-            />
-            <Card
-              title="Services"
-              content="Here are our services we provide."
-            />
-          </div>
-        </div>
-      </section>
+      {/* TODO: Add Services */}
+      <section className="mt-5"></section>
       {/* Advantages */}
       <section className="mt-10 mb-5">
         <h1 className="text-xl font-bold flex justify-center items-center">
@@ -71,12 +53,48 @@ export default function Home() {
         </div>
       </section>
       {/* Features */}
-      <section></section>
-      {/* Partners and Vendors */}
       <section className="mt-10 mb-5">
-        <h1 className="text-xl font-bold flex justify-center items-center">
-          Partners and Vendors
-        </h1>
+        <div className="flex justify-center items-center">
+          <div className="grid md:grid-cols-3 grid-cols-1">
+            <Link href="/dedicated-servers">
+              <Card
+                title="Dedicated Servers"
+                content="High performing, multipurpose dedicated servers made for you."
+              >
+                <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
+                  View Pricing
+                </button>
+              </Card>
+            </Link>
+            <Link href="/vps">
+              <Card
+                title="Virtual Private Servers"
+                content="Are you looking for an affordable, yet powerful virtual server?"
+              >
+                <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
+                  View Pricing
+                </button>
+              </Card>
+            </Link>
+            <Link href="/web-hosting">
+              <Card
+                title="Web Hosting"
+                content="A fast and reliable place to host your beautiful website!"
+              >
+                <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
+                  View Pricing
+                </button>
+              </Card>
+            </Link>
+          </div>
+        </div>
+      </section>
+      {/* Partners and Vendors */}
+      {/* TODO: Add Partners and Vendors */}
+      <section className="mt-10 mb-5">
+        {/* <h1 className="text-xl font-bold flex justify-center items-center"> */}
+        {/*   Partners and Vendors */}
+        {/* </h1> */}
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-2 md:grid-cols-6 sm:grid-cols-3"></div>
         </div>
