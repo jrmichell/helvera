@@ -12,9 +12,25 @@ export default function Home() {
       </section>
       {/* Services */}
       <section>
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
-          <Card title="Services" content="Here are our services we provide." />
-          <Card title="Services" content="Here are our services we provide." />
+        <div className="flex justify-center items-center">
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+            <Card
+              title="Services"
+              content="Here are our services we provide."
+            />
+            <Card
+              title="Services"
+              content="Here are our services we provide."
+            />
+            <Card
+              title="Services"
+              content="Here are our services we provide."
+            />
+            <Card
+              title="Services"
+              content="Here are our services we provide."
+            />
+          </div>
         </div>
       </section>
       {/* Advantages */}
