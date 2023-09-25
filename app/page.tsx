@@ -91,14 +91,7 @@ export default function Home() {
       </section>
       {/* Partners and Vendors */}
       {/* TODO: Add Partners and Vendors */}
-      <section className="mt-10 mb-5">
-        {/* <h1 className="text-xl font-bold flex justify-center items-center"> */}
-        {/*   Partners and Vendors */}
-        {/* </h1> */}
-        <div className="flex justify-center items-center">
-          <div className="grid grid-cols-2 md:grid-cols-6 sm:grid-cols-3"></div>
-        </div>
-      </section>
+      <section className="mt-10 mb-5"></section>
     </div>
   );
 }

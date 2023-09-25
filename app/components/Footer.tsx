@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-dark p-12 text-secondary mt-auto">
+    <div className="bg-dark p-12 mt-auto">
       <div className="grid sm:grid-cols-4 text-primary ">
         <div className="text-center">
           <h1 className="font-bold uppercase">Site Links</h1>
@@ -62,6 +62,9 @@ export default function Footer() {
           <Image src={FooterImg} alt="Logo" width={240} className="mb-6" />
           <Image src={PaymentImg} alt="Payment Methods" width={240} />
         </div>
+      </div>
+      <div className="flex justify-center items-center text-primary mt-8 mb-4 text-center">
+        Copyright 2023 &copy; Helvera - Hosting Solutions (All Rights Reserved)
       </div>
     </div>
   );
