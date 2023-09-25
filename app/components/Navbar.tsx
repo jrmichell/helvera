@@ -90,7 +90,7 @@ export default function Navbar() {
           }
         >
           <div className="flex w-full items-center justify-between">
-            <Link href="/" onClick={() => setNav(false)}>
+            <Link href="/" onClick={toggleNav}>
               <Image src={Logo} alt="Logo" width={50} height={50} />
             </Link>
             <div
@@ -129,7 +129,7 @@ export default function Navbar() {
                 </li>
               </Link>
               <Link onClick={toggleNav} href="/">
-                <li className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[45%]">
+                <li className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[55%] sm:w-[45%]">
                   Client Area
                 </li>
               </Link>
