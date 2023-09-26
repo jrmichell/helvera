@@ -11,12 +11,10 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      {/* TODO: Finish Hero */}
       <section>
         <Image src={Hero} alt="Hero Image" className="w-full" />
       </section>
       {/* Services */}
-      {/* TODO: Add Services */}
       <section className="mt-5"></section>
       {/* Advantages */}
       <section className="mt-10 mb-5">
@@ -56,41 +54,40 @@ export default function Home() {
       <section className="mt-10 mb-5">
         <div className="flex justify-center items-center">
           <div className="grid md:grid-cols-3 grid-cols-1">
-            <Link href="/dedicated-servers">
-              <Card
-                title="Dedicated Servers"
-                content="High performing, multipurpose dedicated servers."
-              >
-                <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
+            <Card
+              title="Dedicated Servers"
+              content="High performing, multipurpose dedicated servers."
+            >
+              <Link href="/dedicated-servers">
+                <button className="bg-primary hover:bg-secondary hover:text-dark font-bold duration-300 p-4 m-5 rounded-xl text-[#fff]">
                   View Pricing
                 </button>
-              </Card>
-            </Link>
-            <Link href="/vps">
-              <Card
-                title="Virtual Private Servers"
-                content="Looking for an affordable, yet powerful virtual machine?"
-              >
-                <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
+              </Link>
+            </Card>
+            <Card
+              title="Virtual Private Servers"
+              content="Looking for an affordable, yet powerful virtual machine?"
+            >
+              <Link href="/vps">
+                <button className="bg-primary hover:bg-secondary hover:text-dark font-bold duration-300 p-4 m-5 rounded-xl text-[#fff]">
                   View Pricing
                 </button>
-              </Card>
-            </Link>
-            <Link href="/web-hosting">
-              <Card
-                title="Web Hosting"
-                content="A fast and reliable place to host your beautiful website!"
-              >
-                <button className="bg-primary text-white font-bold p-4 m-5 rounded-xl text-[#fff]">
+              </Link>
+            </Card>
+            <Card
+              title="Web Hosting"
+              content="A fast and reliable place to host your beautiful website!"
+            >
+              <Link href="/web-hosting">
+                <button className="bg-primary hover:bg-secondary hover:text-dark duration-300 font-bold p-4 m-5 rounded-xl text-[#fff]">
                   View Pricing
                 </button>
-              </Card>
-            </Link>
+              </Link>
+            </Card>
           </div>
         </div>
       </section>
       {/* Partners and Vendors */}
-      {/* TODO: Add Partners and Vendors */}
       <section className="mt-10 mb-5"></section>
     </div>
   );
