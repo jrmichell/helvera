@@ -3,6 +3,7 @@ import Link from "next/link";
 import Hero from "../public/images/hero.webp";
 import Card from "./components/Card";
 import Panel from "./components/Panel";
+import Button from "./components/Button";
 import { FaServer, FaHandHoldingMedical } from "react-icons/fa";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { MdManageAccounts } from "react-icons/md";
@@ -62,9 +63,7 @@ export default function Home() {
               content="High performing, multipurpose dedicated servers."
             >
               <Link href="/dedicated-servers">
-                <button className="bg-primary hover:bg-secondary hover:text-dark font-bold duration-300 p-4 m-5 rounded-xl text-[#fff]">
-                  View Pricing
-                </button>
+                <Button content="View Pricing" />
               </Link>
             </Card>
             <Card
@@ -72,9 +71,7 @@ export default function Home() {
               content="Looking for an affordable, yet powerful virtual machine?"
             >
               <Link href="/vps">
-                <button className="bg-primary hover:bg-secondary hover:text-dark font-bold duration-300 p-4 m-5 rounded-xl text-[#fff]">
-                  View Pricing
-                </button>
+                <Button content="View Pricing" />
               </Link>
             </Card>
             <Card
@@ -82,9 +79,7 @@ export default function Home() {
               content="A fast and reliable place to host your beautiful website!"
             >
               <Link href="/web-hosting">
-                <button className="bg-primary hover:bg-secondary hover:text-dark duration-300 font-bold p-4 m-5 rounded-xl text-[#fff]">
-                  View Pricing
-                </button>
+                <Button content="View Pricing" />
               </Link>
             </Card>
           </div>
