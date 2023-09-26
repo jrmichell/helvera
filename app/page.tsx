@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import Hero from "../public/images/hero.webp";
 import Card from "./components/Card";
 import Panel from "./components/Panel";
 import { FaServer, FaHandHoldingMedical } from "react-icons/fa";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { MdManageAccounts } from "react-icons/md";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -56,7 +56,7 @@ export default function Home() {
       {/* Features */}
       <section className="mt-10 mb-5">
         <div className="flex justify-center items-center">
-          <div className="grid md:grid-cols-3 grid-cols-1">
+          <div className="grid lg:grid-cols-3 grid-cols-1">
             <Card
               title="Dedicated Servers"
               content="High performing, multipurpose dedicated servers."

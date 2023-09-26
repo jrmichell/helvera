@@ -6,8 +6,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="bg-dark p-12 mt-auto">
-      <div className="grid sm:grid-cols-4 text-primary ">
-        <div>
+      <div className="grid sm:grid-cols-4 text-primary">
+        <div className="text-center sm:text-left mr-8">
           <h1 className="font-bold uppercase mb-4">Site Links</h1>
           <ul>
             <li className="mb-2">
@@ -37,7 +37,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="mt-4 text-center sm:text-left mr-8">
           <h1 className="font-bold uppercase mb-4">Legal</h1>
           <ul>
             <li className="mb-2">
@@ -62,7 +62,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="mb-4">
+        <div className="mb-4 mt-4 text-center sm:text-left mr-8">
           <h1 className="font-bold uppercase mb-4">Contact</h1>
           <ul>
             <li className="mb-2">
