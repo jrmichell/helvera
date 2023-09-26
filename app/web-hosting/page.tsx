@@ -1,3 +1,10 @@
+import Card from "../components/Card";
+
 export default function WebHosting() {
-  return <div>Here are some web hosting options.</div>;
+  return (
+    <div className="absolute top-[25%] left-[40%]">
+      {/* Coming Soon */}
+      <Card title="Coming Soon" content="This page is unavailable" />
+    </div>
+  );
 }

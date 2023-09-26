@@ -10,7 +10,7 @@ import { MdManageAccounts } from "react-icons/md";
 
 export default function Home() {
   return (
-    <div>
+    <>
       {/* Hero */}
       <section className="relative">
         <Image src={Hero} alt="Hero Image" className="w-full" />
@@ -87,6 +87,6 @@ export default function Home() {
       </section>
       {/* Partners and Vendors */}
       <section className="mt-10 mb-5"></section>
-    </div>
+    </>
   );
 }
