@@ -24,7 +24,7 @@ export default function Home() {
           Why Choose Helvera?
         </h1>
         <div className="flex justify-center items-center">
-          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 m-10">
             <Panel
               title="SSD Storage"
               content="We make sure to equip all of our Servers with SSD Technology. It is also available for selection with our Dedicated Servers, making sure that you get the best performance."
