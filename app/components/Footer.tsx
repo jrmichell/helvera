@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <div className="bg-dark p-12 mt-auto">
       <div className="grid sm:grid-cols-4 text-primary ">
-        <div className="text-center">
-          <h1 className="font-bold uppercase">Site Links</h1>
-          <ul className="m-4">
+        <div>
+          <h1 className="font-bold uppercase mb-4">Site Links</h1>
+          <ul>
             <Link href="/">
               <li className="hover:underline mb-2">Promotional Offers</li>
             </Link>
@@ -27,9 +27,9 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        <div className="text-center">
-          <h1 className="font-bold uppercase">Legal</h1>
-          <ul className="m-4">
+        <div>
+          <h1 className="font-bold uppercase mb-4">Legal</h1>
+          <ul>
             <Link href="/">
               <li className="hover:underline mb-2">Terms of Service</li>
             </Link>
@@ -44,9 +44,9 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        <div className="text-center mb-4">
-          <h1 className="font-bold uppercase">Contact</h1>
-          <ul className="m-4">
+        <div className="mb-4">
+          <h1 className="font-bold uppercase mb-4">Contact</h1>
+          <ul>
             <Link href="/">
               <li className="hover:underline mb-2">Pre-Sales Tickets</li>
             </Link>
