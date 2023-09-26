@@ -10,52 +10,76 @@ export default function Footer() {
         <div>
           <h1 className="font-bold uppercase mb-4">Site Links</h1>
           <ul>
-            <Link href="/">
-              <li className="hover:underline mb-2">Promotional Offers</li>
-            </Link>
-            <Link href="/game-servers">
-              <li className="hover:underline mb-2">Game Server Hosting</li>
-            </Link>
-            <Link href="/dedicated-servers">
-              <li className="hover:underline mb-2">Dedicated Servers</li>
-            </Link>
-            <Link href="/web-hosting">
-              <li className="hover:underline mb-2">Web Hosting</li>
-            </Link>
-            <Link href="/vps">
-              <li className="hover:underline mb-2">VPS Hosting</li>
-            </Link>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Promotional Offers
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/game-servers">
+                Game Server Hosting
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/dedicated-servers">
+                Dedicated Servers
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/web-hosting">
+                Web Hosting
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/vps">
+                VPS Hosting
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
           <h1 className="font-bold uppercase mb-4">Legal</h1>
           <ul>
-            <Link href="/">
-              <li className="hover:underline mb-2">Terms of Service</li>
-            </Link>
-            <Link href="/">
-              <li className="hover:underline mb-2">Privacy Policy</li>
-            </Link>
-            <Link href="/">
-              <li className="hover:underline mb-2">GDPR Statement</li>
-            </Link>
-            <Link href="/">
-              <li className="hover:underline mb-2">Acceptable Usage Policy</li>
-            </Link>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Terms of Service
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Privacy Policy
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                GDPR Statement
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Acceptable Usage Policy
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="mb-4">
           <h1 className="font-bold uppercase mb-4">Contact</h1>
           <ul>
-            <Link href="/">
-              <li className="hover:underline mb-2">Pre-Sales Tickets</li>
-            </Link>
-            <Link href="/">
-              <li className="hover:underline mb-2">Submit a Support Ticket</li>
-            </Link>
-            <Link href="/">
-              <li className="hover:underline mb-2">Abuse Report Form</li>
-            </Link>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Pre-Sales Tickets
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Submit a Support Ticket
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Abuse Report Form
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col items-center justify-center">
