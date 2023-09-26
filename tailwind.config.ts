@@ -11,13 +11,13 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-poppins)"],
       },
-    },
-    colors: {
-      primary: "#05AFCD",
-      secondary: "#40FF80",
-      offset: "#004040",
-      dark: "#1F1F1F",
-      darker: "#000000",
+      colors: {
+        primary: "#05AFCD",
+        secondary: "#40FF80",
+        offset: "#004040",
+        dark: "#1F1F1F",
+        darker: "#000000",
+      },
     },
   },
   plugins: [],
