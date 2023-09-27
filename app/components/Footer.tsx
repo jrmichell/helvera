@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-dark flex justify-center items-center flex-col p-12 mt-auto">
+    <div className="bg-dark flex justify-center items-center flex-col p-12">
       <div className="grid sm:grid-cols-4 text-primary">
-        <div className="text-center sm:text-left mr-8">
+        <div className="sm:text-left mt-4 mr-8">
           <h1 className="font-bold uppercase mb-4">Site Links</h1>
           <ul>
             <li className="mb-2">
