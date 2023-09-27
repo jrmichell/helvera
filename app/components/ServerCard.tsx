@@ -3,10 +3,10 @@ import data from "../data/dedicated.json";
 interface ServerCardProps {
   className?: string;
   cpu?: string;
+  cores?: string;
   ram?: string;
   storage?: string;
-  bandwidth?: string;
-  speed?: string;
+  transfer?: string;
   price?: string;
   children?: React.ReactNode;
 }
@@ -18,10 +18,10 @@ const serverData = data.map((server) => (
   >
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 p-4">
       <p>{server.cpu}</p>
+      <p>{server.cores}</p>
       <p className="ml-4">{server.ram}</p>
       <p>{server.storage}</p>
-      <p>{server.bandwidth}</p>
-      <p>{server.speed}</p>
+      <p>{server.transfer}</p>
       <p>{server.price}</p>
     </div>
   </div>
