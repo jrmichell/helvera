@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "cpu": "Intel Core i7-4790 4 cores @ 3.6 GHz",
+    "ram": "32 GB DDR3",
+    "storage": "120GB SSD Disk",
+    "bandwidth": "20TB Bandwidth",
+    "speed": "1Gbps Speed",
+    "price": "€75.00 Price (inc. VAT)"
+  },
+  {
+    "id": 2,
+    "cpu": "Intel Core i7-6700K 4 cores @ 4.0 GHz",
+    "ram": "32 GB DDR3",
+    "storage": "240GB SSD Disk",
+    "bandwidth": "20TB Bandwidth",
+    "speed": "1Gbps Speed",
+    "price": "€80.00 Price (inc. VAT)"
+  },
+  {
+    "id": 3,
+    "cpu": "Intel Core i7-7700K 4 cores @ 4.2 GHz",
+    "ram": "32 GB DDR3",
+    "storage": "256GB NVMe Disk",
+    "bandwidth": "30TB Bandwidth",
+    "speed": "1Gbps Speed",
+    "price": "€100.00 Price (inc. VAT)"
+  },
+  {
+    "id": 4,
+    "cpu": "Intel Core i7-8700K 6 cores @ 3.7 GHz",
+    "ram": "32 GB DDR4",
+    "storage": "256GB NVMe Disk",
+    "bandwidth": "30TB Bandwidth",
+    "speed": "1Gbps Speed",
+    "price": "€120.00 Price (inc. VAT)"
+  }
+]

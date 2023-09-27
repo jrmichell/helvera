@@ -1,6 +1,6 @@
 import Image from "next/image";
-import UK from "../../public/images/UK.png";
-import ServerCard from "../components/ServerCard";
+import UK from "../../../public/images/UK.png";
+import ServerCard from "../../components/ServerCard";
 
 export default function DediServers() {
   return (
