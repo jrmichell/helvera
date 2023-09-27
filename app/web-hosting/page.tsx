@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 export default function WebHosting() {
   return (
-    <div className="absolute top-[25%] left-[40%]">
+    <div className="absolute top-[25%] left-[45%]">
       {/* Coming Soon */}
       <Card title="Coming Soon" content="This page is unavailable" />
     </div>
