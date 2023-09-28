@@ -6,15 +6,10 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="bg-dark flex flex-col justify-center items-center p-12">
-      <div className="grid sm:grid-cols-4 text-primary">
+      <div className="grid sm:grid-cols-5 text-primary">
         <div className="sm:text-left text-center mt-4 mr-8">
-          <h1 className="font-bold uppercase mb-4">Site Links</h1>
+          <h1 className="font-bold uppercase mb-4">PRODUCTS</h1>
           <ul>
-            <li className="mb-2">
-              <Link className="hover:underline" href="/">
-                Promotional Offers
-              </Link>
-            </li>
             <li className="mb-2">
               <Link className="hover:underline" href="/game-servers">
                 Game Server Hosting
@@ -33,6 +28,64 @@ export default function Footer() {
             <li className="mb-2">
               <Link className="hover:underline" href="/vps">
                 VPS Hosting
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Promotional Offers
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4 text-center sm:text-left mr-8">
+          <h1 className="font-bold uppercase mb-4">Clients</h1>
+          <ul>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Client Area
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Game Control Panel
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Submit a Support Ticket
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/"></Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Invoices
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Affiliates
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="mb-4 mt-4 text-center sm:text-left mr-8">
+          <h1 className="font-bold uppercase mb-4">Contact</h1>
+          <ul>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Pre-Sales Tickets
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                General Enquiries
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Abuse Report Form
               </Link>
             </li>
           </ul>
@@ -60,24 +113,9 @@ export default function Footer() {
                 Acceptable Usage Policy
               </Link>
             </li>
-          </ul>
-        </div>
-        <div className="mb-4 mt-4 text-center sm:text-left mr-8">
-          <h1 className="font-bold uppercase mb-4">Contact</h1>
-          <ul>
             <li className="mb-2">
               <Link className="hover:underline" href="/">
-                Pre-Sales Tickets
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link className="hover:underline" href="/">
-                Submit a Support Ticket
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link className="hover:underline" href="/">
-                Abuse Report Form
+                Jobs
               </Link>
             </li>
           </ul>
