@@ -17,21 +17,23 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
 
   return (
     <div className="flex justify-center items-center m-8">
-      <div className="flex flex-col justify-center items-center p-6 shadow-md rounded-xl duration-300 hover:shadow-primary hover:scale-105">
+      <div
+        className={`flex flex-col p-6 shadow-md rounded-xl duration-300 hover:shadow-primary hover:scale-105`}
+      >
         <h2
-          className="flex font-bold text-primary text-center text-xl cursor-pointer"
+          className="flex justify-between items-center font-bold text-primary text-xl cursor-pointer w-[750px]"
           onClick={toggleAccordion}
         >
-          {question}
+          <div className="flex justify-start items-start">{question}</div>
           <div className="text-dark">
-            {(!isOpen && <RiArrowDropUpLine size={30} />) || (
+            {isOpen ? (
+              <RiArrowDropUpLine size={30} />
+            ) : (
               <RiArrowDropDownLine size={30} />
             )}
           </div>
         </h2>
-        {isOpen && (
-          <p className="text-dark text-md mt-5 text-center">{answer}</p>
-        )}
+        {isOpen && <p className="text-dark text-md mt-5 w-[750px]">{answer}</p>}
       </div>
     </div>
   );
