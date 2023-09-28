@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative">
-        <Image src={Hero} alt="Hero Image" className="w-full" />
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-10 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
+      <section>
+        <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           The home of blazing fast, high quality, affordable hosting solutions.
         </h1>
+        <Image src={Hero} alt="Hero Image" className="w-full" />
       </section>
       {/* Services */}
       <section className="mt-5"></section>

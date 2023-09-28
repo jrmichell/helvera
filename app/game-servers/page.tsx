@@ -14,12 +14,12 @@ export default function GameServers() {
     <div>
       {/* Hero Section */}
       <section>
-        <Image src={NukeImg} alt="CS2 Server Hosting" />
-        <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-32 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
+        <Image src={NukeImg} alt="CS2 Server Hosting" className="w-screen" />
+        <div className="left-[10%] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-24 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           <h1>Counter-Strike 2</h1>
           <h1>Server Hosting</h1>
         </div>
-        <ul className="absolute top-60 max-w-[50%] text-white mt-4 p-8 md:p-16 text-xl">
+        <ul className="left-[10%] absolute z-1 top-52 max-w-[50%] text-white mt-4 p-8 md:p-16 text-xl hidden 2xl:block">
           <div className="flex gap-2">
             <FaCheck size={25} />
             <li>Multiple Locations Available</li>

@@ -21,7 +21,7 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
         className={`flex flex-col p-6 shadow-md rounded-xl duration-300 hover:shadow-primary hover:scale-105`}
       >
         <h2
-          className="flex justify-between items-center font-bold text-primary text-xl cursor-pointer w-[750px]"
+          className="flex justify-between items-center font-bold text-primary text-xl cursor-pointer md:w-[750px] w-[300px]"
           onClick={toggleAccordion}
         >
           <div className="flex justify-start items-start">{question}</div>
@@ -33,7 +33,11 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
             )}
           </div>
         </h2>
-        {isOpen && <p className="text-dark text-md mt-5 w-[750px]">{answer}</p>}
+        {isOpen && (
+          <p className="text-dark text-md mt-5 md:w-[750px] w-[300px]">
+            {answer}
+          </p>
+        )}
       </div>
     </div>
   );
