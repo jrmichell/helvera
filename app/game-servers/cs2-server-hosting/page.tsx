@@ -168,15 +168,17 @@ export default function GameServers() {
           Other Games We Host
         </h1>
         <div className="flex justify-center items-center mb-8">
-          <Link href="/game-servers/minecraft-server-hosting">
-            <GameCard game="Minecraft" />
-          </Link>
-          <Link href="/game-servers/rust-server-hosting">
-            <GameCard game="Rust" />
-          </Link>
-          <Link href="/game-servers/gmod-server-hosting">
-            <GameCard game="Garry's Mod" />
-          </Link>
+          <div className="grid grid-cols-1 sm:grid-cols-3">
+            <Link href="/game-servers/minecraft-server-hosting">
+              <GameCard game="Minecraft" />
+            </Link>
+            <Link href="/game-servers/rust-server-hosting">
+              <GameCard game="Rust" />
+            </Link>
+            <Link href="/game-servers/gmod-server-hosting">
+              <GameCard game="Garry's Mod" />
+            </Link>
+          </div>
         </div>
       </section>
     </div>
