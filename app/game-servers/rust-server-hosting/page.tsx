@@ -8,6 +8,7 @@ import Link from "next/link";
 import Panel from "../../components/Panel";
 import Card from "../../components/Card";
 import FAQ from "../../components/FAQ";
+import GameCard from "../../components/GameCard";
 
 export default function GameServers() {
   return (
@@ -160,6 +161,23 @@ export default function GameServers() {
           question="What can I do with my Rust server?"
           answer="With your Rust server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. You can play competitive matches, practice grenades and retakes, there is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
         />
+      </section>
+      {/* Other Games */}
+      <section>
+        <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-5">
+          Other Games We Host
+        </h1>
+        <div className="flex justify-center items-center mb-8">
+          <Link href="/game-servers/minecraft-server-hosting">
+            <GameCard game="Minecraft" />
+          </Link>
+          <Link href="/game-servers/gmod-server-hosting">
+            <GameCard game="Garry's Mod" />
+          </Link>
+          <Link href="/game-servers/cs2-server-hosting">
+            <GameCard game="CS2" />
+          </Link>
+        </div>
       </section>
     </div>
   );
