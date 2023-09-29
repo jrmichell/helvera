@@ -3,8 +3,11 @@ import Image from "next/image";
 import GameCard from "../components/GameCard";
 import FAQ from "../components/FAQ";
 import Button from "../components/Button";
-import { FaCheck } from "react-icons/fa6";
+import { FaCheck, FaHandHoldingMedical, FaServer } from "react-icons/fa6";
 import Hero from "../../public/images/hero-game.png";
+import { AiFillFolderOpen } from "react-icons/ai";
+import { MdManageAccounts } from "react-icons/md";
+import Panel from "../components/Panel";
 
 export default function GameServers() {
   return (
@@ -44,54 +47,91 @@ export default function GameServers() {
           </div>
         </ul>
       </section>
-      <div className="flex flex-col justify-center items-center mt-8">
-        <h1 className="text-3xl font-bold flex justify-center items-center mb-4">
-          Game Servers
-        </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-4">
-          <Link href="/game-servers/minecraft-server-hosting">
-            <GameCard game="Minecraft" />
-          </Link>
-          <Link href="/game-servers/cs2-server-hosting">
-            <GameCard game="CS2" />
-          </Link>
-          <Link href="/game-servers/rust-server-hosting">
-            <GameCard game="Rust" />
-          </Link>
-          <Link href="/game-servers/gmod-server-hosting">
-            <GameCard game="Garry's Mod" />
-          </Link>
-        </div>
-        <div className="p-6 border rounded-lg flex mb-4 text-center text-sm sm:text-md">
-          <div className="">
-            Looking for a server for a game we don't host?&nbsp;
+      {/* Games Section */}
+      <section>
+        <div className="flex flex-col justify-center items-center mt-8">
+          <h1 className="text-3xl font-bold flex justify-center items-center mb-4">
+            Game Servers
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-4">
+            <Link href="/game-servers/minecraft-server-hosting">
+              <GameCard game="Minecraft" />
+            </Link>
+            <Link href="/game-servers/cs2-server-hosting">
+              <GameCard game="CS2" />
+            </Link>
+            <Link href="/game-servers/rust-server-hosting">
+              <GameCard game="Rust" />
+            </Link>
+            <Link href="/game-servers/gmod-server-hosting">
+              <GameCard game="Garry's Mod" />
+            </Link>
           </div>
-          <span className="text-primary hover:underline">
-            {/* TODO: Redirect to General Enquires page */}
-            <Link href="/">Contact us.</Link>
-          </span>
+          <div className="p-6 border rounded-lg flex mb-4 text-center text-sm sm:text-md">
+            <div className="">
+              Looking for a server for a game we don't host?&nbsp;
+            </div>
+            <span className="text-primary hover:underline">
+              {/* TODO: Redirect to General Enquires page */}
+              <Link href="/">Contact us.</Link>
+            </span>
+          </div>
         </div>
-        {/* FAQ */}
-        <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
-          Frequently Asked Questions
+      </section>
+      {/* Advantages */}
+      <section className="mt-10 mb-5">
+        <h1 className="text-xl font-bold flex justify-center items-center">
+          Why Choose Helvera?
         </h1>
-        <FAQ
-          question="Placeholder number juan"
-          answer="this is a random fucking answer that no one will ever see... ever"
-        />
-        <FAQ
-          question="Placeholder number does"
-          answer="this is a random fucking answer that no one will ever see... ever"
-        />
-        <FAQ
-          question="Placeholder number trees"
-          answer="this is a random fucking answer that no one will ever see... ever"
-        />
-        <FAQ
-          question="Placeholder number quarter"
-          answer="this is a random fucking answer that no one will ever see... ever"
-        />
-      </div>
+        <div className="flex justify-center items-center">
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18">
+            <Panel
+              title="SSD Storage"
+              content="We make sure to equip all of our Servers with SSD Technology. It is also available for selection with our Dedicated Servers, making sure that you get the best performance."
+            >
+              <FaServer size={40} />
+            </Panel>
+            <Panel
+              title="Full Access"
+              content="No matter on the service we make sure to give you full access of your server, this will allow you to make the most out of your purchase without having any issues."
+            >
+              <AiFillFolderOpen size={40} />
+            </Panel>
+            <Panel
+              title="Need Support?"
+              content="We offer Ticket, Phone and Live Support with all packages. This will make sure that any queries you have will be taken care of by our support team."
+            >
+              <FaHandHoldingMedical size={40} />
+            </Panel>
+            <Panel
+              title="Simple Management"
+              content="All of our Servers run on simple control panels allowing you to navigate your system with ease. You can easily check our Knowledge Base if you are unsure on anything."
+            >
+              <MdManageAccounts size={40} />
+            </Panel>
+          </div>
+        </div>
+      </section>
+      {/* FAQ */}
+      <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
+        Frequently Asked Questions
+      </h1>
+      <FAQ
+        question="Placeholder number juan"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
+      <FAQ
+        question="Placeholder number does"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
+      <FAQ
+        question="Placeholder number trees"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
+      <FAQ
+        question="Placeholder number quarter"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
     </div>
   );
 }
