@@ -67,7 +67,7 @@ export default function Navbar() {
                 Game Servers
               </Link>
             </li>
-            <button className="text-dark uppercase bg-primary hover:bg-secondary duration-300 font-bold px-4 py-2 rounded-lg mr-8">
+            <button className="text-white hover:text-dark uppercase bg-primary hover:bg-secondary duration-300 font-bold px-4 py-2 rounded-lg mr-8">
               <Link href="/">Client Area</Link>
             </button>
           </ul>

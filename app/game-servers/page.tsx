@@ -40,7 +40,7 @@ export default function GameServers() {
         answer="this is a random fucking answer that no one will ever see... ever"
       />
       <FAQ
-        question="Placeholder number dos"
+        question="Placeholder number does"
         answer="this is a random fucking answer that no one will ever see... ever"
       />
       <FAQ
