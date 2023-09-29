@@ -149,20 +149,20 @@ export default function GameServers() {
           Frequently Asked Questions
         </h1>
         <FAQ
-          question="What is Counter-Strike 2?"
-          answer="Counter-Strike 2 is the latest addition to the extremely successful Counter-Strike franchise. Packed full of significant technological advancements and new features, this is their biggest release yet!"
+          question="What is Minecraft: Java Edition?"
+          answer="Minecraft: Java Edition is a popular sandbox video game that allows players to explore, build, and survive in a blocky, open-world environment. It offers a creative and adventure-driven experience, where players can mine resources, craft tools and structures, and interact with a variety of creatures. The game's block-based graphics give it a distinctive, pixelated aesthetic. Minecraft is available on various platforms and has a strong emphasis on creativity and player-driven content, making it a versatile and engaging gaming experience."
         />
         <FAQ
-          question="How do I join a Counter-Strike 2 server?"
-          answer="Once you've purchased a Counter-Strike 2 game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Couter-Strike 2, open your console and paste the command!"
+          question="How do I join a Minecraft: Java Edition server?"
+          answer="Once you've purchased a Minecraft: Java Edition game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the IP address, launch Minecraft: Java Edition, go to the Multiplayer menu and add the server!"
         />
         <FAQ
-          question="How much does a Counter-Strike 2 server cost?"
-          answer="We offer Counter-Strike 2 servers from &pound;9.99 per month! You can see find our packages and pricing above!"
+          question="How much does a Minecraft: Java Edition server cost?"
+          answer="We offer Minecraft: Java Edition servers from &pound;4.99 per month! You can see find our packages and pricing above!"
         />
         <FAQ
-          question="What can I do with my Counter-Strike 2 server?"
-          answer="With your Counter-Strike 2 server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. You can play competitive matches, practice grenades and retakes, there is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
+          question="What can I do with my Minecraft: Java Edition server?"
+          answer="With your Minecraft: Java Edition server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. There is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
         />
       </section>
     </div>

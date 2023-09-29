@@ -80,30 +80,10 @@ export default function GameServers() {
           <Card title="Standard">
             <div className="flex flex-col justify-center items-center">
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                The ideal package for a scrim or practice server.
+                The ideal package for a small community.
               </p>
-              <p className="text-dark text-lg mt-2">12 Slots</p>
+              <p className="text-dark text-lg mt-2">50 Slots</p>
               <p className="text-dark text-lg mt-2">45GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1Gbps Network</p>
-              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;9.99 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-              <div className="mt-2">
-                <Link href="/game-servers">
-                  <Button content="Order Now" />
-                </Link>
-              </div>
-            </div>
-          </Card>
-          <Card title="Community">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                Recommended for a small community.
-              </p>
-              <p className="text-dark text-lg mt-2">32 Slots</p>
-              <p className="text-dark text-lg mt-2">60GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
@@ -117,18 +97,38 @@ export default function GameServers() {
               </div>
             </div>
           </Card>
+          <Card title="Community">
+            <div className="flex flex-col justify-center items-center">
+              <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
+                Recommended for a medium-sized community.
+              </p>
+              <p className="text-dark text-lg mt-2">100 Slots</p>
+              <p className="text-dark text-lg mt-2">60GB SSD Storage</p>
+              <p className="text-dark text-lg mt-2">1Gbps Network</p>
+              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+              <p className="text-dark text-lg mt-2">Instant Setup</p>
+              <h1 className="text-4xl text-primary mt-6">
+                &pound;39.99 <span className="text-gray-500 text-xl">/mo</span>
+              </h1>
+              <div className="mt-2">
+                <Link href="/game-servers">
+                  <Button content="Order Now" />
+                </Link>
+              </div>
+            </div>
+          </Card>
           <Card title="Enhanced">
             <div className="flex flex-col justify-center items-center">
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 The perfect package for a large community.
               </p>
-              <p className="text-dark text-lg mt-2">Unlimited Slots</p>
+              <p className="text-dark text-lg mt-2">250 Slots</p>
               <p className="text-dark text-lg mt-2">75GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;26.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;65.99 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
@@ -145,20 +145,20 @@ export default function GameServers() {
           Frequently Asked Questions
         </h1>
         <FAQ
-          question="What is Counter-Strike 2?"
-          answer="Counter-Strike 2 is the latest addition to the extremely successful Counter-Strike franchise. Packed full of significant technological advancements and new features, this is their biggest release yet!"
+          question="What is Rust?"
+          answer="Rust is a popular multiplayer online survival video game developed by Facepunch Studios. In Rust, players find themselves in a harsh open-world environment where they must gather resources, build shelter, and form alliances with other players to survive. The game is known for its unforgiving gameplay, as players must contend with both environmental hazards and potential threats from other players."
         />
         <FAQ
-          question="How do I join a Counter-Strike 2 server?"
-          answer="Once you've purchased a Counter-Strike 2 game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Couter-Strike 2, open your console and paste the command!"
+          question="How do I join a Rust server?"
+          answer="Once you've purchased a Rust game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Rust, open your console and paste the command!"
         />
         <FAQ
-          question="How much does a Counter-Strike 2 server cost?"
-          answer="We offer Counter-Strike 2 servers from &pound;9.99 per month! You can see find our packages and pricing above!"
+          question="How much does a Rust server cost?"
+          answer="We offer Rust servers from &pound;19.99 per month! You can see find our packages and pricing above!"
         />
         <FAQ
-          question="What can I do with my Counter-Strike 2 server?"
-          answer="With your Counter-Strike 2 server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. You can play competitive matches, practice grenades and retakes, there is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
+          question="What can I do with my Rust server?"
+          answer="With your Rust server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. You can play competitive matches, practice grenades and retakes, there is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
         />
       </section>
     </div>

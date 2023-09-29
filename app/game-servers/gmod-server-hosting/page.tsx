@@ -80,9 +80,9 @@ export default function GameServers() {
           <Card title="Standard">
             <div className="flex flex-col justify-center items-center">
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                The ideal package for a scrim or practice server.
+                The ideal package for a development server.
               </p>
-              <p className="text-dark text-lg mt-2">12 Slots</p>
+              <p className="text-dark text-lg mt-2">20 Slots</p>
               <p className="text-dark text-lg mt-2">45GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
@@ -102,13 +102,13 @@ export default function GameServers() {
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 Recommended for a small community.
               </p>
-              <p className="text-dark text-lg mt-2">32 Slots</p>
+              <p className="text-dark text-lg mt-2">50 Slots</p>
               <p className="text-dark text-lg mt-2">60GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;19.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;25.99 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
@@ -128,7 +128,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;26.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;38.99 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
@@ -145,20 +145,20 @@ export default function GameServers() {
           Frequently Asked Questions
         </h1>
         <FAQ
-          question="What is Counter-Strike 2?"
-          answer="Counter-Strike 2 is the latest addition to the extremely successful Counter-Strike franchise. Packed full of significant technological advancements and new features, this is their biggest release yet!"
+          question="What is Garry's Mod?"
+          answer="Garry's Mod, often abbreviated as GMod, is a popular sandbox video game developed by Garry Newman. It's not a traditional game with specific objectives, but rather a 'modding' platform for the Source game engine. Players can manipulate objects, create structures, and use a wide variety of user-generated content to build their own virtual worlds and game modes. GMod provides a flexible and creative environment where players can use tools, props, and scripts to invent unique experiences, making it a versatile and entertaining platform for both casual and serious gamers."
         />
         <FAQ
-          question="How do I join a Counter-Strike 2 server?"
-          answer="Once you've purchased a Counter-Strike 2 game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Couter-Strike 2, open your console and paste the command!"
+          question="How do I join a Garry's Mod server?"
+          answer="Once you've purchased a Garry's Mod game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Garry's Mod, open your console and paste the command!"
         />
         <FAQ
-          question="How much does a Counter-Strike 2 server cost?"
-          answer="We offer Counter-Strike 2 servers from &pound;9.99 per month! You can see find our packages and pricing above!"
+          question="How much does a Garry's Mod server cost?"
+          answer="We offer Garry's Mod servers from &pound;9.99 per month! You can see find our packages and pricing above!"
         />
         <FAQ
-          question="What can I do with my Counter-Strike 2 server?"
-          answer="With your Counter-Strike 2 server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. You can play competitive matches, practice grenades and retakes, there is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
+          question="What can I do with my Garry's Mod server?"
+          answer="With your Garry's Mod server, you are in full control. You can upload maps, add plugins, modify game modes, execute server commands and configs, manage your files via Secure FTP, etc. You can play competitive matches, practice grenades and retakes, there is no limit! We are constantly enhancing our services to ensure the smoothest, most optimal experience. As soon as something new becomes available you will have access!"
         />
       </section>
     </div>

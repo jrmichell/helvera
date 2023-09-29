@@ -150,7 +150,7 @@ export default function GameServers() {
         />
         <FAQ
           question="How do I join a Counter-Strike 2 server?"
-          answer="Once you've purchased a Counter-Strike 2 game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Couter-Strike 2, open your console and paste the command!"
+          answer="Once you've purchased a Counter-Strike 2 game server from us, it will be instantly activated and begin downloading all required files and updates to your game server. Once this is done, you will see the server connection information in our Game Control Panel. To join the server, you can simply copy the command, launch Counter-Strike 2, open your console and paste the command!"
         />
         <FAQ
           question="How much does a Counter-Strike 2 server cost?"
