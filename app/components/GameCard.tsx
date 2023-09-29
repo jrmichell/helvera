@@ -2,10 +2,9 @@
 
 import Image from "next/image";
 import { useState } from "react"; // Import useState to manage the selected game image
-import { useEffect } from "react";
+import { useEffect } from "react"; // Import useEffect to load the selected game image
 
 type Game = string;
-type className = string;
 
 export default function GameCard({ game }: { game: Game }) {
   const gameAliases: { [key: string]: string } = {
@@ -19,29 +18,33 @@ export default function GameCard({ game }: { game: Game }) {
     CS2: "cs2.jpg",
   };
 
-  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
-  const [gameImage, setGameImage] = useState<any>(null);
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null); // Store the selected game name
+  const [gameImage, setGameImage] = useState<any>(null); // Store the selected game image
 
+  // Load the selected game image when the game changes
   useEffect(() => {
     if (game) {
       const normalizedGame = gameAliases[game.toLowerCase()] || game; // Use the alias if available
       setSelectedGame(normalizedGame);
 
       // Dynamically import the game image based on the selected game
-      const imageFilename = gameImageFilenames[normalizedGame] || "default.jpg"; // Use "default.jpg" if no image found
-      import(`../../public/images/${imageFilename}`)
+      const imageFilename = gameImageFilenames[normalizedGame]; // Get the image filename for the selected game
+      import(`../../public/images/${imageFilename}`) // Import the image
         .then((image) => {
+          // Set the image
           console.log("Image Loaded for:", normalizedGame);
           setGameImage(image.default);
         })
         .catch((error) => {
+          // Log an error if the image fails to load
           console.error("Error loading image:", error);
         });
     }
-  }, [game]);
+  }, [game]); // Only run this effect when the game changes
 
   return (
     <div className="flex justify-center items-center">
+      {/* Display the selected game image and name */}
       {selectedGame && (
         <div className="m-4 hover:shadow-primary shadow-lg rounded-lg border hover:scale-105 duration-300">
           {gameImage && (
