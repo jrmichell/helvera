@@ -1,5 +1,6 @@
 import Link from "next/link";
 import GameCard from "../components/GameCard";
+import FAQ from "../components/FAQ";
 
 export default function GameServers() {
   return (
@@ -21,7 +22,7 @@ export default function GameServers() {
           <GameCard game="Garry's Mod" />
         </Link>
       </div>
-      <div className="p-4 border rounded-lg flex mb-4 text-center text-sm sm:text-md">
+      <div className="p-6 border rounded-lg flex mb-4 text-center text-sm sm:text-md">
         <div className="">
           Looking for a server for a game we don't host?&nbsp;
         </div>
@@ -30,6 +31,26 @@ export default function GameServers() {
           <Link href="/">Contact us.</Link>
         </span>
       </div>
+      {/* FAQ */}
+      <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
+        Frequently Asked Questions
+      </h1>
+      <FAQ
+        question="Placeholder number juan"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
+      <FAQ
+        question="Placeholder number dos"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
+      <FAQ
+        question="Placeholder number trees"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
+      <FAQ
+        question="Placeholder number quarter"
+        answer="this is a random fucking answer that no one will ever see... ever"
+      />
     </div>
   );
 }
