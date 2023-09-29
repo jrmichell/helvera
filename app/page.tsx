@@ -14,10 +14,10 @@ export default function Home() {
     <>
       {/* Hero */}
       <section>
-        <h1 className="left-[10%] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
+        <h1 className="left-[10%] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl absolute max-w-[50%] top-24 sm:top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           The home of blazing fast, high quality, affordable hosting solutions.
         </h1>
-        <ul className="left-[10%] absolute z-1 top-72 max-w-[50%] text-white mt-4 p-8 md:p-16 text-xl hidden 2xl:block">
+        <ul className="left-[10%] absolute z-1 top-64 max-w-[50%] text-white md:p-16 text-lg hidden 2xl:block">
           <div className="flex gap-2">
             <FaCheck size={25} />
             <li>Multiple Locations Available</li>
@@ -38,7 +38,7 @@ export default function Home() {
             <FaCheck size={25} />
             <li>Instant Server Setup</li>
           </div>
-          <div className="mt-4">
+          <div className="mt-1">
             {/* TODO: Add Client Area Link */}
             <Link href="/">
               <Button content="Client Area" />
