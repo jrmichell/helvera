@@ -12,6 +12,7 @@ import Panel from "../../components/Panel";
 import FAQ from "../../components/FAQ";
 import GameCard from "../../components/GameCard";
 import Slider from "../../components/Slider";
+import Card from "../../components/Card";
 
 interface ServerProps {
   price: string;
@@ -20,11 +21,11 @@ interface ServerProps {
 
 export default function GameServers(ServerProps: ServerProps) {
   const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
-  const [playersValue, setPlayersValue] = useState(20); // Set a default value
+  const [playersValue, setPlayersValue] = useState(30); // Set a default value
   const [modsValue, setModsValue] = useState(0); // Set a default value
   const [recommendation, setRecommendation] = useState({
-    price: "4.99",
-    ram: "2GB RAM",
+    price: "7.50",
+    ram: "3GB RAM",
   });
 
   useEffect(() => {
@@ -34,32 +35,79 @@ export default function GameServers(ServerProps: ServerProps) {
   const updateRecommendation = () => {
     let newRecommendation = { price: "", ram: "" };
 
-    if (modPackSelection === "modded") {
-      if (playersValue <= 20) {
-        newRecommendation = { price: "4.99", ram: "2GB RAM" };
-      } else if (playersValue <= 50) {
-        newRecommendation = { price: "7.99", ram: "5GB RAM" };
-      } else if (playersValue > 50) {
-        newRecommendation = { price: "14.99", ram: "10GB RAM" };
-      }
-    } else if (modPackSelection === "vanilla") {
-      // Set recommendation values for "vanilla"
-      if (playersValue <= 20) {
-        newRecommendation = { price: "4.99", ram: "2GB RAM" };
-      } else if (playersValue <= 50) {
-        newRecommendation = { price: "7.99", ram: "5GB RAM" };
-      } else if (playersValue > 50) {
-        newRecommendation = { price: "14.99", ram: "10GB RAM" };
-      }
-    } else if (modPackSelection === "spigot") {
-      // Set recommendation values for "spigot"
-      if (playersValue <= 20) {
-        newRecommendation = { price: "4.99", ram: "2GB RAM" };
-      } else if (playersValue <= 50) {
-        newRecommendation = { price: "7.99", ram: "5GB RAM" };
-      } else if (playersValue > 50) {
-        newRecommendation = { price: "14.99", ram: "10GB RAM" };
-      }
+    switch (modPackSelection) {
+      case "modded":
+        if (playersValue <= 50) {
+          newRecommendation = { price: "10.00", ram: "4GB RAM" };
+        } else if (playersValue <= 80) {
+          newRecommendation = { price: "15.00", ram: "6GB RAM" };
+        } else if (playersValue <= 100) {
+          newRecommendation = { price: "20.00", ram: "8GB RAM" };
+        } else if (playersValue <= 150) {
+          newRecommendation = { price: "30.00", ram: "12GB RAM" };
+        } else if (playersValue <= 200) {
+          newRecommendation = { price: "40.00", ram: "16GB RAM" };
+        }
+        break;
+      case "vanilla":
+        if (playersValue <= 10) {
+          newRecommendation = { price: "3.75", ram: "1.5GB RAM" };
+        } else if (playersValue <= 20) {
+          newRecommendation = { price: "5.00", ram: "2GB RAM" };
+        } else if (playersValue <= 30) {
+          newRecommendation = { price: "7.50", ram: "3GB RAM" };
+        } else if (playersValue <= 50) {
+          newRecommendation = { price: "10.00", ram: "4GB RAM" };
+        } else if (playersValue <= 80) {
+          newRecommendation = { price: "15.00", ram: "6GB RAM" };
+        } else if (playersValue <= 100) {
+          newRecommendation = { price: "20.00", ram: "8GB RAM" };
+        } else if (playersValue <= 150) {
+          newRecommendation = { price: "30.00", ram: "12GB RAM" };
+        } else if (playersValue <= 200) {
+          newRecommendation = { price: "40.00", ram: "16GB RAM" };
+        }
+        break;
+      case "spigot":
+        if (playersValue <= 10) {
+          newRecommendation = { price: "3.75", ram: "1.5GB RAM" };
+        } else if (playersValue <= 20) {
+          newRecommendation = { price: "5.00", ram: "2GB RAM" };
+        } else if (playersValue <= 30) {
+          newRecommendation = { price: "7.50", ram: "3GB RAM" };
+        } else if (playersValue <= 50) {
+          newRecommendation = { price: "10.00", ram: "4GB RAM" };
+        } else if (playersValue <= 80) {
+          newRecommendation = { price: "15.00", ram: "6GB RAM" };
+        } else if (playersValue <= 100) {
+          newRecommendation = { price: "20.00", ram: "8GB RAM" };
+        } else if (playersValue <= 150) {
+          newRecommendation = { price: "30.00", ram: "12GB RAM" };
+        } else if (playersValue <= 200) {
+          newRecommendation = { price: "40.00", ram: "16GB RAM" };
+        }
+        break;
+      case "other":
+        if (playersValue <= 10) {
+          newRecommendation = { price: "3.75", ram: "1.5GB RAM" };
+        } else if (playersValue <= 20) {
+          newRecommendation = { price: "5.00", ram: "2GB RAM" };
+        } else if (playersValue <= 30) {
+          newRecommendation = { price: "7.50", ram: "3GB RAM" };
+        } else if (playersValue <= 50) {
+          newRecommendation = { price: "10.00", ram: "4GB RAM" };
+        } else if (playersValue <= 80) {
+          newRecommendation = { price: "15.00", ram: "6GB RAM" };
+        } else if (playersValue <= 100) {
+          newRecommendation = { price: "20.00", ram: "8GB RAM" };
+        } else if (playersValue <= 150) {
+          newRecommendation = { price: "30.00", ram: "12GB RAM" };
+        } else if (playersValue <= 200) {
+          newRecommendation = { price: "40.00", ram: "16GB RAM" };
+        }
+        break;
+      default:
+        newRecommendation = recommendation;
     }
 
     setRecommendation(newRecommendation);
@@ -222,6 +270,68 @@ export default function GameServers(ServerProps: ServerProps) {
               </div>
             </div>
           </div>
+        </div>
+        <h1 className="font-bold text-center text-4xl mt-10 mb-5">
+          Most Popular Plans
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-3">
+          <Card title="Iron">
+            <div className="flex flex-col justify-center items-center">
+              {/* TODO: Add an image icon for the plan */}
+              <p className="text-dark text-lg mt-2">20 Slots</p>
+              <p className="text-dark text-lg mt-2">2GB RAM</p>
+              <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
+              <p className="text-dark text-lg mt-2">1Gbps Network</p>
+              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+              <p className="text-dark text-lg mt-2">Instant Setup</p>
+              <h1 className="text-4xl text-primary mt-6">
+                &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
+              </h1>
+              <div className="mt-2">
+                <Link href="/game-servers">
+                  <Button content="Order Now" />
+                </Link>
+              </div>
+            </div>
+          </Card>
+          <Card title="Emerald">
+            <div className="flex flex-col justify-center items-center">
+              {/* TODO: Add an image icon for the plan */}
+              <p className="text-dark text-lg mt-2">80 Slots</p>
+              <p className="text-dark text-lg mt-2">6GB RAM</p>
+              <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
+              <p className="text-dark text-lg mt-2">1Gbps Network</p>
+              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+              <p className="text-dark text-lg mt-2">Instant Setup</p>
+              <h1 className="text-4xl text-primary mt-6">
+                &pound;15.00 <span className="text-gray-500 text-xl">/mo</span>
+              </h1>
+              <div className="mt-2">
+                <Link href="/game-servers">
+                  <Button content="Order Now" />
+                </Link>
+              </div>
+            </div>
+          </Card>
+          <Card title="TNT">
+            <div className="flex flex-col justify-center items-center">
+              {/* TODO: Add an image icon for the plan */}
+              <p className="text-dark text-lg mt-2">200 Slots</p>
+              <p className="text-dark text-lg mt-2">16GB RAM</p>
+              <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
+              <p className="text-dark text-lg mt-2">1Gbps Network</p>
+              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+              <p className="text-dark text-lg mt-2">Instant Setup</p>
+              <h1 className="text-4xl text-primary mt-6">
+                &pound;40.00 <span className="text-gray-500 text-xl">/mo</span>
+              </h1>
+              <div className="mt-2">
+                <Link href="/game-servers">
+                  <Button content="Order Now" />
+                </Link>
+              </div>
+            </div>
+          </Card>
         </div>
         {/* TODO: Translate into a component and use props to change the values */}
       </section>
