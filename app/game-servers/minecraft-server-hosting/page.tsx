@@ -20,6 +20,7 @@ interface ServerProps {
 }
 
 export default function GameServers(ServerProps: ServerProps) {
+  // Define the state
   const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
   const [playersValue, setPlayersValue] = useState(30); // Set a default value
   const [modsValue, setModsValue] = useState(0); // Set a default value
@@ -28,13 +29,16 @@ export default function GameServers(ServerProps: ServerProps) {
     ram: "3GB RAM",
   });
 
+  // Update the recommendation when the mod pack selection or the number of players changes
   useEffect(() => {
     updateRecommendation();
   }, [modPackSelection, playersValue, modsValue]);
 
+  // Define the function to update the recommendation
   const updateRecommendation = () => {
     let newRecommendation = { price: "", ram: "" };
 
+    // This switch statement is used to determine the recommendation based on the mod pack selection and the number of players
     switch (modPackSelection) {
       case "modded":
         if (playersValue <= 50) {
@@ -113,6 +117,7 @@ export default function GameServers(ServerProps: ServerProps) {
     setRecommendation(newRecommendation);
   };
 
+  // Define the other event handlers
   const handleModPackChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedOption = event.target.value;
     setModPackSelection(selectedOption);
@@ -333,7 +338,6 @@ export default function GameServers(ServerProps: ServerProps) {
             </div>
           </Card>
         </div>
-        {/* TODO: Translate into a component and use props to change the values */}
       </section>
       {/* FAQ */}
       <section>
