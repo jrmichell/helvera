@@ -204,7 +204,7 @@ export default function GameServers(ServerProps: ServerProps) {
         <h1 className="text-primary text-center text-4xl font-bold m-12">
           Minecraft Server Caluclator
         </h1>
-        <div className="flex lg:flex-row flex-col justify-center items-center px-20 py-8 shadow-md border rounded-xl">
+        <div className="flex lg:flex-row flex-col justify-center items-center sm:px-20 py-8 shadow-md border rounded-xl">
           <div className="flex flex-col">
             <div>
               <div className="flex flex-col items-center justify-center">
