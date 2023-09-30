@@ -83,7 +83,7 @@ export default function GameServers() {
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 The ideal package for a development server.
               </p>
-              <p className="text-dark text-lg mt-2">20 Slots</p>
+              <p className="text-dark text-lg mt-2">32 Slots</p>
               <p className="text-dark text-lg mt-2">45GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
@@ -103,7 +103,7 @@ export default function GameServers() {
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 Recommended for a small community.
               </p>
-              <p className="text-dark text-lg mt-2">50 Slots</p>
+              <p className="text-dark text-lg mt-2">64 Slots</p>
               <p className="text-dark text-lg mt-2">60GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
@@ -123,7 +123,7 @@ export default function GameServers() {
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 The perfect package for a large community.
               </p>
-              <p className="text-dark text-lg mt-2">Unlimited Slots</p>
+              <p className="text-dark text-lg mt-2">128 Slots</p>
               <p className="text-dark text-lg mt-2">75GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>

@@ -123,7 +123,7 @@ export default function GameServers() {
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 The perfect package for a large community.
               </p>
-              <p className="text-dark text-lg mt-2">250 Slots</p>
+              <p className="text-dark text-lg mt-2">200 Slots</p>
               <p className="text-dark text-lg mt-2">75GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
