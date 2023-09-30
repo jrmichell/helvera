@@ -1,16 +1,83 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import MinecraftImg from "../../../public/images/minecraft-server.png";
-import { FaCheck } from "react-icons/fa6";
+import { FaCheck } from "react-icons/fa";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 import { BiMap, BiSliderAlt } from "react-icons/bi";
 import Button from "../../components/Button";
-import Link from "next/link";
 import Panel from "../../components/Panel";
-import Card from "../../components/Card";
 import FAQ from "../../components/FAQ";
 import GameCard from "../../components/GameCard";
+import Slider from "../../components/Slider";
 
-export default function GameServers() {
+interface ServerProps {
+  price: string;
+  ram: string;
+}
+
+export default function GameServers(ServerProps: ServerProps) {
+  const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
+  const [playersValue, setPlayersValue] = useState(20); // Set a default value
+  const [modsValue, setModsValue] = useState(0); // Set a default value
+  const [recommendation, setRecommendation] = useState({
+    price: "4.99",
+    ram: "2GB RAM",
+  });
+
+  useEffect(() => {
+    updateRecommendation();
+  }, [modPackSelection, playersValue, modsValue]);
+
+  const updateRecommendation = () => {
+    let newRecommendation = { price: "", ram: "" };
+
+    if (modPackSelection === "modded") {
+      if (playersValue <= 20) {
+        newRecommendation = { price: "4.99", ram: "2GB RAM" };
+      } else if (playersValue <= 50) {
+        newRecommendation = { price: "7.99", ram: "5GB RAM" };
+      } else if (playersValue > 50) {
+        newRecommendation = { price: "14.99", ram: "10GB RAM" };
+      }
+    } else if (modPackSelection === "vanilla") {
+      // Set recommendation values for "vanilla"
+      if (playersValue <= 20) {
+        newRecommendation = { price: "4.99", ram: "2GB RAM" };
+      } else if (playersValue <= 50) {
+        newRecommendation = { price: "7.99", ram: "5GB RAM" };
+      } else if (playersValue > 50) {
+        newRecommendation = { price: "14.99", ram: "10GB RAM" };
+      }
+    } else if (modPackSelection === "spigot") {
+      // Set recommendation values for "spigot"
+      if (playersValue <= 20) {
+        newRecommendation = { price: "4.99", ram: "2GB RAM" };
+      } else if (playersValue <= 50) {
+        newRecommendation = { price: "7.99", ram: "5GB RAM" };
+      } else if (playersValue > 50) {
+        newRecommendation = { price: "14.99", ram: "10GB RAM" };
+      }
+    }
+
+    setRecommendation(newRecommendation);
+  };
+
+  const handleModPackChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedOption = event.target.value;
+    setModPackSelection(selectedOption);
+  };
+
+  const handlePlayersSliderChange = (value: number) => {
+    setPlayersValue(value);
+  };
+
+  const handleModsSliderChange = (value: number) => {
+    setModsValue(value);
+  };
+
   return (
     <div>
       {/* Hero Section */}
@@ -80,60 +147,73 @@ export default function GameServers() {
         </div>
       </section>
       {/* Pricing */}
-      <section className="flex justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          <Card title="Standard">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                The ideal package for a scrim or practice server.
-              </p>
-              <p className="text-dark text-lg mt-2">12 Slots</p>
-              <p className="text-dark text-lg mt-2">45GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1Gbps Network</p>
-              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;9.99 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-              <div className="mt-2">
-                <Link href="/game-servers">
-                  <Button content="Order Now" />
-                </Link>
+      <section className="flex flex-col justify-center items-center">
+        <h1 className="text-primary text-center text-4xl font-bold m-12">
+          Minecraft Server Caluclator
+        </h1>
+        <div className="flex lg:flex-row flex-col justify-center items-center px-20 py-8 shadow-md border rounded-xl">
+          <div className="flex flex-col">
+            <div>
+              <div className="flex flex-col items-center justify-center">
+                <div>
+                  <p className="text-lg font-bold m-2 text-center">
+                    What mod pack are you trying to play?
+                  </p>
+                  <div className="flex">
+                    <select
+                      className="bg-gray-100 border rounded-xl w-full focus:outline-none m-2 text-center"
+                      onChange={handleModPackChange}
+                      value={modPackSelection}
+                    >
+                      <option value="vanilla">Vanilla Minecraft</option>
+                      <option value="spigot">Spigot/Paper</option>
+                      <option value="modded">Forge Modpack</option>
+                      <option value="other">Other</option>
+                    </select>
+                    {modPackSelection === "modded" && (
+                      <select className="bg-gray-100 border rounded-xl w-full focus:outline-none m-2 text-center">
+                        <option value="curseforge">CurseForge</option>
+                        <option value="atlauncher">ATLauncher</option>
+                        <option value="technic">Technic</option>
+                        <option value="ftb">FTB</option>
+                        <option value="other">Other</option>
+                      </select>
+                    )}
+                  </div>
+                </div>
               </div>
             </div>
-          </Card>
-          <Card title="Community">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                Recommended for a small community.
-              </p>
-              <p className="text-dark text-lg mt-2">32 Slots</p>
-              <p className="text-dark text-lg mt-2">60GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1Gbps Network</p>
-              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;19.99 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-              <div className="mt-2">
-                <Link href="/game-servers">
-                  <Button content="Order Now" />
-                </Link>
-              </div>
+            <div className="flex flex-col justify-center items-center p-4">
+              <Slider
+                min={10}
+                max={200}
+                step={10}
+                initialValue={playersValue}
+                description="How many players do you want to be able to have?"
+                onChange={handlePlayersSliderChange}
+              />
+              <Slider
+                min={0}
+                max={75}
+                step={5}
+                initialValue={modsValue}
+                description="How many mods/plugins do you want to be able to have?"
+                onChange={handleModsSliderChange}
+              />
             </div>
-          </Card>
-          <Card title="Enhanced">
+          </div>
+          <div className="flex m-12">
             <div className="flex flex-col justify-center items-center">
-              <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                The perfect package for a large community.
-              </p>
+              <h1 className="text-primary text-center text-2xl font-bold m-2">
+                Our Recommendation
+              </h1>
               <p className="text-dark text-lg mt-2">Unlimited Slots</p>
-              <p className="text-dark text-lg mt-2">75GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1Gbps Network</p>
-              <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+              <p className="text-dark text-lg mt-2">{recommendation.ram}</p>
+              <p className="text-dark text-lg mt-2">100GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;26.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;{recommendation.price}
+                <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
@@ -141,8 +221,9 @@ export default function GameServers() {
                 </Link>
               </div>
             </div>
-          </Card>
+          </div>
         </div>
+        {/* TODO: Translate into a component and use props to change the values */}
       </section>
       {/* FAQ */}
       <section>

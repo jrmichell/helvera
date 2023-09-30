@@ -46,7 +46,7 @@ export default function GameCard({ game }: { game: Game }) {
     <div className="flex justify-center items-center">
       {/* Display the selected game image and name */}
       {selectedGame && (
-        <div className="m-4 hover:shadow-primary shadow-lg rounded-lg border hover:scale-105 duration-300">
+        <div className="m-4 shadow-lg rounded-lg border hover:scale-105 duration-300">
           {gameImage && (
             <Image
               src={gameImage}

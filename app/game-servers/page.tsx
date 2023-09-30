@@ -85,7 +85,7 @@ export default function GameServers() {
         </h1>
         <div className="flex justify-center items-center">
           <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18">
-          <Panel
+            <Panel
               title="Blazing-Fast Hardware"
               content="We make sure to equip all of our Servers with the latest technology, making sure that you always get the best performance possible with your server."
             >
