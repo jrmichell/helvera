@@ -88,6 +88,16 @@ export default function Footer() {
                 Abuse Report Form
               </Link>
             </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Service Status
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link className="hover:underline" href="/">
+                Knowledgebase
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="mt-4 text-center sm:text-left mr-8">
