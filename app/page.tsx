@@ -55,8 +55,8 @@ export default function Home() {
         <div className="flex justify-center items-center">
           <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18">
             <Panel
-              title="SSD Storage"
-              content="We make sure to equip all of our Servers with SSD Technology. It is also available for selection with our Dedicated Servers, making sure that you get the best performance."
+              title="Blazing-Fast Hardware"
+              content="We make sure to equip all of our Servers with the latest technology, making sure that you always get the best performance possible with your server."
             >
               <FaServer size={40} />
             </Panel>
@@ -67,14 +67,14 @@ export default function Home() {
               <AiFillFolderOpen size={40} />
             </Panel>
             <Panel
-              title="Need Support?"
-              content="We offer Ticket, Phone and Live Support with all packages. This will make sure that any queries you have will be taken care of by our support team."
+              title="Dedicated Support"
+              content="We offer Ticket and Live Chat Support with all packages as standard. This will make sure that any queries you have will be taken care of by our support team."
             >
               <FaHandHoldingMedical size={40} />
             </Panel>
             <Panel
               title="Simple Management"
-              content="All of our Servers run on simple control panels allowing you to navigate your system with ease. You can easily check our Knowledge Base if you are unsure on anything."
+              content="All of our services run on simple control panels allowing you to navigate your system with ease. You can easily check our Knowledgebase if you are unsure on anything."
             >
               <MdManageAccounts size={40} />
             </Panel>
