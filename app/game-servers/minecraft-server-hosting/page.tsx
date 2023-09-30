@@ -209,7 +209,7 @@ export default function GameServers(ServerProps: ServerProps) {
               </h1>
               <p className="text-dark text-lg mt-2">Unlimited Slots</p>
               <p className="text-dark text-lg mt-2">{recommendation.ram}</p>
-              <p className="text-dark text-lg mt-2">100GB SSD Storage</p>
+              <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
                 &pound;{recommendation.price}
