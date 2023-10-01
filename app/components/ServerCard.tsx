@@ -1,32 +1,31 @@
 import data from "../data/dedicated.json";
 
-interface ServerCardProps {
-  className?: string;
-  cpu?: string;
-  cores?: string;
-  ram?: string;
-  storage?: string;
-  transfer?: string;
-  price?: string;
-  children?: React.ReactNode;
-}
-
 const serverData = data.map((server) => (
   <div
-    className="flex flex-col items-start justify-center text-white bg-gray-600 text-sm w-[85%] mx-auto my-1"
     key={server.id}
+    className="flex justify-between items-start text-white rounded-xl bg-primary text-sm w-full my-1 p-4 mx-auto"
   >
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 p-4">
-      <p>{server.cpu}</p>
-      <p>{server.cores}</p>
-      <p className="ml-4">{server.ram}</p>
-      <p>{server.storage}</p>
-      <p>{server.transfer}</p>
-      <p>{server.price}</p>
-    </div>
+    <p className="w-1/6">{server.cpu}</p>
+    <p className="w-1/6">{server.cores}</p>
+    <p className="w-1/6">{server.ram}</p>
+    <p className="w-1/6">{server.storage}</p>
+    <p className="w-1/6">{server.transfer}</p>
+    <p className="w-1/6">{server.price}</p>
   </div>
 ));
 
 export default function ServerCard() {
-  return [serverData];
+  return (
+    <div className="flex flex-col items-start justify-center">
+      <div className="flex justify-between items-start text-white font-bold rounded-xl bg-blue-800 text-sm w-full my-1 p-4 mx-auto">
+        <h2 className="uppercase w-1/6">Processor</h2>
+        <h2 className="uppercase w-1/6">Cores</h2>
+        <h2 className="uppercase w-1/6">Memory</h2>
+        <h2 className="uppercase w-1/6">Storage</h2>
+        <h2 className="uppercase w-1/6">Transfer</h2>
+        <h2 className="uppercase w-1/6">Price</h2>
+      </div>
+      {serverData}
+    </div>
+  );
 }
