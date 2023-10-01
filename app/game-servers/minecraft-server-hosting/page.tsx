@@ -20,6 +20,7 @@ interface ServerProps {
 }
 
 export default function GameServers(ServerProps: ServerProps) {
+  // Define the state
   const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
   const [playersValue, setPlayersValue] = useState(30); // Set a default value
   const [modsValue, setModsValue] = useState(0); // Set a default value
@@ -28,13 +29,16 @@ export default function GameServers(ServerProps: ServerProps) {
     ram: "3GB RAM",
   });
 
+  // Update the recommendation when the mod pack selection or the number of players changes
   useEffect(() => {
     updateRecommendation();
   }, [modPackSelection, playersValue, modsValue]);
 
+  // Define the function to update the recommendation
   const updateRecommendation = () => {
     let newRecommendation = { price: "", ram: "" };
 
+    // This switch statement is used to determine the recommendation based on the mod pack selection and the number of players
     switch (modPackSelection) {
       case "modded":
         if (playersValue <= 50) {
@@ -113,6 +117,7 @@ export default function GameServers(ServerProps: ServerProps) {
     setRecommendation(newRecommendation);
   };
 
+  // Define the other event handlers
   const handleModPackChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedOption = event.target.value;
     setModPackSelection(selectedOption);
@@ -199,7 +204,7 @@ export default function GameServers(ServerProps: ServerProps) {
         <h1 className="text-primary text-center text-4xl font-bold m-12">
           Minecraft Server Caluclator
         </h1>
-        <div className="flex lg:flex-row flex-col justify-center items-center px-20 py-8 shadow-md border rounded-xl">
+        <div className="flex lg:flex-row flex-col justify-center items-center sm:px-20 py-8 shadow-md border rounded-xl">
           <div className="flex flex-col">
             <div>
               <div className="flex flex-col items-center justify-center">
@@ -333,7 +338,6 @@ export default function GameServers(ServerProps: ServerProps) {
             </div>
           </Card>
         </div>
-        {/* TODO: Translate into a component and use props to change the values */}
       </section>
       {/* FAQ */}
       <section>
@@ -350,7 +354,7 @@ export default function GameServers(ServerProps: ServerProps) {
         />
         <FAQ
           question="How much does a Minecraft: Java Edition server cost?"
-          answer="We offer Minecraft: Java Edition servers from &pound;3.75 per month! You can see find our packages and pricing above!"
+          answer="We offer Minecraft: Java Edition servers from &pound;5.00 per month! You can see find our packages and pricing above!"
         />
         <FAQ
           question="What can I do with my Minecraft: Java Edition server?"

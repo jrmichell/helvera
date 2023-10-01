@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 
+// Define the props type
 interface SliderProps {
   min: number;
   max: number;
@@ -11,6 +12,7 @@ interface SliderProps {
   onChange: (value: number) => void;
 }
 
+// Define the component
 const Slider: React.FC<SliderProps> = ({
   min,
   max,
@@ -19,9 +21,12 @@ const Slider: React.FC<SliderProps> = ({
   description,
   onChange,
 }) => {
+  // Define the state
   const [value, setValue] = useState(initialValue);
 
+  // Define the event handler
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    // The new value is the value of the input element
     const newValue = parseInt(event.target.value, 10);
     setValue(newValue);
     onChange(newValue);
