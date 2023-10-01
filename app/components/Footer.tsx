@@ -1,7 +1,12 @@
 import Image from "next/image";
-import PaymentImg from "../../public/images/payment.png";
-import FooterImg from "../../public/images/footer.png";
 import Link from "next/link";
+import FooterImg from "../../public/images/footer.png";
+import {
+  FaCcPaypal,
+  FaCcVisa,
+  FaCcMastercard,
+  FaBitcoin,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -132,7 +137,24 @@ export default function Footer() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image src={FooterImg} alt="Logo" width={240} className="mb-6" />
-          <Image src={PaymentImg} alt="Payment Methods" width={240} />
+          <div className="flex justify-center items-center">
+            <FaCcPaypal
+              className="m-2 hover:text-secondary duration-300 cursor-pointer"
+              size={40}
+            />
+            <FaCcVisa
+              className="m-2 hover:text-secondary duration-300 cursor-pointer"
+              size={40}
+            />
+            <FaCcMastercard
+              className="m-2 hover:text-secondary duration-300 cursor-pointer"
+              size={40}
+            />
+            <FaBitcoin
+              className="m-2 hover:text-secondary duration-300 cursor-pointer"
+              size={40}
+            />
+          </div>
         </div>
       </div>
       <div className="text-primary mt-12 mb-4 text-center">
