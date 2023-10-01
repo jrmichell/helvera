@@ -14,7 +14,7 @@ export default function Home() {
     <>
       {/* Hero */}
       <section>
-        <h1 className="left-[10%] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl absolute max-w-[50%] top-24 sm:top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
+        <h1 className="left-[10%] text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl absolute max-w-[50%] top-24 sm:top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           The home of blazing fast, high quality, affordable hosting solutions.
         </h1>
         <ul className="left-[10%] absolute z-1 top-64 max-w-[50%] text-white md:p-16 text-lg hidden 2xl:block">

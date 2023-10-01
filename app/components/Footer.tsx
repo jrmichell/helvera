@@ -5,7 +5,7 @@ import {
   FaCcPaypal,
   FaCcVisa,
   FaCcMastercard,
-  FaBitcoin,
+  FaCcStripe,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -150,7 +150,7 @@ export default function Footer() {
               className="m-2 hover:text-secondary duration-300 cursor-pointer"
               size={40}
             />
-            <FaBitcoin
+            <FaCcStripe
               className="m-2 hover:text-secondary duration-300 cursor-pointer"
               size={40}
             />
