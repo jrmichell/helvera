@@ -17,7 +17,7 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
 
   return (
     <div className="flex justify-center items-center m-8">
-      <div className={`flex flex-col p-6 shadow-md rounded-xl`}>
+      <div className={`flex flex-col p-6 border shadow-md rounded-xl`}>
         <h2
           className="flex justify-between items-center font-bold text-primary text-xl cursor-pointer md:w-[750px] w-[300px]"
           onClick={toggleAccordion}
