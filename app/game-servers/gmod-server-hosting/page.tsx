@@ -81,7 +81,7 @@ export default function GameServers() {
           <Card title="Standard">
             <div className="flex flex-col justify-center items-center">
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
-                The ideal package for a development server.
+                The ideal package for just starting out.
               </p>
               <p className="text-dark text-lg mt-2">32 Slots</p>
               <p className="text-dark text-lg mt-2">45GB SSD Storage</p>

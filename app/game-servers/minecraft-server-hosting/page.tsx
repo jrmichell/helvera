@@ -350,7 +350,7 @@ export default function GameServers(ServerProps: ServerProps) {
         />
         <FAQ
           question="How much does a Minecraft: Java Edition server cost?"
-          answer="We offer Minecraft: Java Edition servers from &pound;4.99 per month! You can see find our packages and pricing above!"
+          answer="We offer Minecraft: Java Edition servers from &pound;3.75 per month! You can see find our packages and pricing above!"
         />
         <FAQ
           question="What can I do with my Minecraft: Java Edition server?"
