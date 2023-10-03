@@ -53,7 +53,7 @@ export default function GameServers() {
           <h1 className="text-3xl font-bold flex justify-center items-center mb-4">
             Game Servers
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
             <Link href="/game-servers/minecraft-server-hosting">
               <GameCard game="Minecraft" />
             </Link>
@@ -67,7 +67,7 @@ export default function GameServers() {
               <GameCard game="Garry's Mod" />
             </Link>
           </div>
-          <div className="p-6 border rounded-lg flex mb-4 text-center text-sm sm:text-md">
+          <div className="p-4 border rounded-lg flex mb-4 text-center text-xs sm:text-md">
             <div className="">
               Looking for a server for a game we don't host?&nbsp;
             </div>

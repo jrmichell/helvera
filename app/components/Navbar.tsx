@@ -78,7 +78,7 @@ export default function Navbar() {
           {/* Toggle Button */}
           <button
             onClick={toggleNav}
-            className="text-primary uppercase px-4 py-4"
+            className="text-primary uppercase px-2 py-4"
           >
             <AiOutlineMenu size={25} />
           </button>

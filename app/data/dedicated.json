@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "cpu": "Intel Core i7-7700Kz",
+    "cpu": "Intel Core i7-7700K",
     "cores": "4 cores @ 4.2 GHz",
     "ram": "32 GB DDR3",
     "storage": "256GB NVMe Disk",

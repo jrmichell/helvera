@@ -11,8 +11,8 @@ import {
 export default function Footer() {
   return (
     <div className="bg-dark flex flex-col justify-center items-center p-12">
-      <div className="grid sm:grid-cols-5 text-primary">
-        <div className="sm:text-left text-center mt-4 mr-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 text-primary">
+        <div className="xl:text-left text-center mt-4 mr-8">
           <h1 className="font-bold uppercase mb-4">PRODUCTS</h1>
           <ul>
             <li className="mb-2">
@@ -42,7 +42,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="mt-4 text-center sm:text-left mr-8">
+        <div className="mt-4 text-center xl:text-left mr-8">
           <h1 className="font-bold uppercase mb-4">Clients</h1>
           <ul>
             <li className="mb-2">
@@ -75,7 +75,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="mb-4 mt-4 text-center sm:text-left mr-8">
+        <div className="mb-4 mt-4 text-center xl:text-left mr-8">
           <h1 className="font-bold uppercase mb-4">Contact</h1>
           <ul>
             <li className="mb-2">
@@ -105,7 +105,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="mt-4 text-center sm:text-left mr-8">
+        <div className="mt-4 text-center xl:text-left mr-8">
           <h1 className="font-bold uppercase mb-4">Legal</h1>
           <ul>
             <li className="mb-2">
@@ -135,26 +135,26 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col items-center justify-center">
-          <Image src={FooterImg} alt="Logo" width={240} className="mb-6" />
-          <div className="flex justify-center items-center">
-            <FaCcPaypal
-              className="m-2 hover:text-secondary duration-300 cursor-pointer"
-              size={40}
-            />
-            <FaCcVisa
-              className="m-2 hover:text-secondary duration-300 cursor-pointer"
-              size={40}
-            />
-            <FaCcMastercard
-              className="m-2 hover:text-secondary duration-300 cursor-pointer"
-              size={40}
-            />
-            <FaCcStripe
-              className="m-2 hover:text-secondary duration-300 cursor-pointer"
-              size={40}
-            />
-          </div>
+      </div>
+      <div className="flex flex-col items-center justify-center text-primary">
+        <Image src={FooterImg} alt="Logo" width={240} className="mb-6" />
+        <div className="flex justify-center items-center">
+          <FaCcPaypal
+            className="m-2 hover:text-secondary duration-300 cursor-pointer"
+            size={40}
+          />
+          <FaCcVisa
+            className="m-2 hover:text-secondary duration-300 cursor-pointer"
+            size={40}
+          />
+          <FaCcMastercard
+            className="m-2 hover:text-secondary duration-300 cursor-pointer"
+            size={40}
+          />
+          <FaCcStripe
+            className="m-2 hover:text-secondary duration-300 cursor-pointer"
+            size={40}
+          />
         </div>
       </div>
       <div className="text-primary mt-12 mb-4 text-center">
