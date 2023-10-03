@@ -56,7 +56,7 @@ export default function DediServers() {
             United Kindgom Servers
           </h2>
         </div>
-        <div className="mx-auto w-[85%]">
+        <div className="mx-auto w-[75%]">
           <ServerCard />
         </div>
         <div className="flex justify-center items-center">
