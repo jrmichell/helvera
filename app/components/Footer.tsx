@@ -36,7 +36,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="/offers">
                 Promotional Offers
               </Link>
             </li>
@@ -109,27 +109,27 @@ export default function Footer() {
           <h1 className="font-bold uppercase mb-4">Legal</h1>
           <ul>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="/terms-of-service">
                 Terms of Service
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="/privacy-policy">
                 Privacy Policy
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="/gdpr">
                 GDPR Statement
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="/acceptable-use">
                 Acceptable Usage Policy
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="/jobs">
                 Jobs
               </Link>
             </li>
