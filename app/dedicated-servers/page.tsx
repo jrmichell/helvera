@@ -35,7 +35,7 @@ export default function DediServers() {
           </div>
           <div className="flex gap-2">
             <FaCheck size={25} />
-            <li>Lag-Free Gaming Experience</li>
+            <li>Full Root Access</li>
           </div>
           <div className="flex gap-2">
             <FaCheck size={25} />

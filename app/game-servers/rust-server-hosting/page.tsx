@@ -89,7 +89,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;19.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;14.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
@@ -109,7 +109,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;39.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;28.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
@@ -129,7 +129,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;65.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;56.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
