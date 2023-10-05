@@ -18,7 +18,7 @@ export default function DediServers() {
     <div>
       <section>
         {/* Hero Section */}
-        <Image src={Hero} alt="Game Server Hosting" className="w-screen" />
+        <Image src={Hero} alt="Dedicated Server Hosting" className="w-screen" />
         <div className="left-[10%] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-24 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           <h1>Helvera Dedicated</h1>
           <h1>Server Hosting</h1>

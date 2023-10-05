@@ -1,5 +1,5 @@
 import Link from "next/link";
-import TitleCard from "./TitleCard";
+import TitleCard from "./DediTitleCard";
 import data from "../data/dedicated.json";
 import Button from "./Button";
 
