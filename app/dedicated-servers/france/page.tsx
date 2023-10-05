@@ -181,19 +181,19 @@ export default function DediServers() {
           Frequently Asked Questions
         </h1>
         <FAQ
-          question="Placeholder number juan"
+          question="Placeholder"
           answer="this is a random fucking answer that no one will ever see... ever"
         />
         <FAQ
-          question="Placeholder number does"
+          question="Placeholder"
           answer="this is a random fucking answer that no one will ever see... ever"
         />
         <FAQ
-          question="Placeholder number trees"
+          question="Placeholder"
           answer="this is a random fucking answer that no one will ever see... ever"
         />
         <FAQ
-          question="Placeholder number quarter"
+          question="Placeholder"
           answer="this is a random fucking answer that no one will ever see... ever"
         />
       </section>
