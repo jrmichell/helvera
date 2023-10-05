@@ -16,7 +16,6 @@ export default function Navbar() {
   }
 
   return (
-    // TODO: Make the navbar sticky
     <div className="sticky z-50 w-full">
       <div className="bg-dark flex flex-row justify-between p-4">
         {/* Logo */}

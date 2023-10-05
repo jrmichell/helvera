@@ -282,7 +282,6 @@ export default function GameServers(ServerProps: ServerProps) {
         <div className="grid grid-cols-1 md:grid-cols-3">
           <Card title="Iron">
             <div className="flex flex-col justify-center items-center">
-              {/* TODO: Add an image icon for the plan */}
               <p className="text-dark text-lg mt-2">20 Slots</p>
               <p className="text-dark text-lg mt-2">2GB RAM</p>
               <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
@@ -301,7 +300,6 @@ export default function GameServers(ServerProps: ServerProps) {
           </Card>
           <Card title="Emerald">
             <div className="flex flex-col justify-center items-center">
-              {/* TODO: Add an image icon for the plan */}
               <p className="text-dark text-lg mt-2">80 Slots</p>
               <p className="text-dark text-lg mt-2">6GB RAM</p>
               <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
@@ -320,7 +318,6 @@ export default function GameServers(ServerProps: ServerProps) {
           </Card>
           <Card title="TNT">
             <div className="flex flex-col justify-center items-center">
-              {/* TODO: Add an image icon for the plan */}
               <p className="text-dark text-lg mt-2">200 Slots</p>
               <p className="text-dark text-lg mt-2">16GB RAM</p>
               <p className="text-dark text-lg mt-2">50GB SSD Storage</p>

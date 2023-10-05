@@ -72,7 +72,6 @@ export default function GameServers() {
               Looking for a server for a game we don't host?&nbsp;
             </div>
             <span className="text-primary hover:underline">
-              {/* TODO: Redirect to General Enquires page */}
               <Link href="/">Contact us.</Link>
             </span>
           </div>
