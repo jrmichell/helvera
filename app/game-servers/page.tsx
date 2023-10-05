@@ -72,7 +72,7 @@ export default function GameServers() {
               Looking for a server for a game we don't host?&nbsp;
             </div>
             <span className="text-primary hover:underline">
-              <Link href="/">Contact us.</Link>
+              <Link href="https://my.helvera.co.uk/contact.php">Contact us.</Link>
             </span>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function GameServers() {
           </div>
         </div>
       </section>
-      {/* FAQ */}
+      {/* FAQ
       <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
         Frequently Asked Questions
       </h1>
@@ -130,7 +130,7 @@ export default function GameServers() {
       <FAQ
         question="Placeholder"
         answer="this is a random fucking answer that no one will ever see... ever"
-      />
+      /> */}
     </div>
   );
 }

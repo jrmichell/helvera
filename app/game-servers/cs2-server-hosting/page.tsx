@@ -89,7 +89,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;9.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;10.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
@@ -109,7 +109,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;19.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;20.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
@@ -129,7 +129,7 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;26.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;30.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
                 <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
@@ -155,7 +155,7 @@ export default function GameServers() {
         />
         <FAQ
           question="How much does a Counter-Strike 2 server cost?"
-          answer="We offer Counter-Strike 2 servers from &pound;9.99 per month! You can see find our packages and pricing above!"
+          answer="We offer Counter-Strike 2 servers from &pound;10.00 per month! You can see find our packages and pricing above!"
         />
         <FAQ
           question="What can I do with my Counter-Strike 2 server?"

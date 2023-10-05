@@ -92,7 +92,7 @@ export default function GameServers() {
                 &pound;14.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust/standard">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -112,27 +112,27 @@ export default function GameServers() {
                 &pound;28.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust/community">
                   <Button content="Order Now" />
                 </Link>
               </div>
             </div>
           </Card>
-          <Card title="Enhanced">
+          <Card title="Ultimate">
             <div className="flex flex-col justify-center items-center">
               <p className="text-gray-600 text-center text-sm mb-4 max-w-[75%]">
                 The perfect package for a large community.
               </p>
-              <p className="text-dark text-lg mt-2">200 Slots</p>
+              <p className="text-dark text-lg mt-2">175 Slots</p>
               <p className="text-dark text-lg mt-2">75GB SSD Storage</p>
               <p className="text-dark text-lg mt-2">1Gbps Network</p>
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;56.00 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;49.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust/ultimate">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -155,7 +155,7 @@ export default function GameServers() {
         />
         <FAQ
           question="How much does a Rust server cost?"
-          answer="We offer Rust servers from &pound;19.99 per month! You can see find our packages and pricing above!"
+          answer="We offer Rust servers from &pound;14.00 per month! You can see find our packages and pricing above!"
         />
         <FAQ
           question="What can I do with my Rust server?"

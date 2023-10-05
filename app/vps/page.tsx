@@ -17,7 +17,7 @@ export default function VPS() {
         <Image src={Hero} alt="VPS Hosting" className="w-screen" />
         <div className="left-[10%] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl absolute max-w-[50%] top-24 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           <h1>Helvera Virtual</h1>
-          <h1>Private Server Hosting</h1>
+          <h1>Server Hosting</h1>
         </div>
         <ul className="left-[10%] absolute z-1 top-52 max-w-[50%] text-white mt-4 p-8 md:p-16 text-xl hidden 2xl:block">
           <div className="flex gap-2">
@@ -59,7 +59,7 @@ export default function VPS() {
               <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
               <p className="text-dark text-lg mt-2">2GB DDR4</p>
               <p className="text-dark text-lg mt-2">40GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
+              <p className="text-dark text-lg mt-2">1 IPv4</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
                 &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
@@ -77,7 +77,7 @@ export default function VPS() {
               <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
               <p className="text-dark text-lg mt-2">4GB DDR4</p>
               <p className="text-dark text-lg mt-2">80GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
+              <p className="text-dark text-lg mt-2">1 IPv4</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
                 &pound;10.00 <span className="text-gray-500 text-xl">/mo</span>
@@ -95,7 +95,7 @@ export default function VPS() {
               <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
               <p className="text-dark text-lg mt-2">8GB DDR4</p>
               <p className="text-dark text-lg mt-2">120GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
+              <p className="text-dark text-lg mt-2">1 IPv4</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
                 &pound;17.50
@@ -114,7 +114,7 @@ export default function VPS() {
               <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
               <p className="text-dark text-lg mt-2">12GB DDR4</p>
               <p className="text-dark text-lg mt-2">160GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
+              <p className="text-dark text-lg mt-2">1 IPv4</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
                 &pound;25.00 <span className="text-gray-500 text-xl">/mo</span>
@@ -159,7 +159,7 @@ export default function VPS() {
           </div>
         </div>
       </section>
-      {/* FAQ */}
+      {/* FAQ
       <section className="mb-10">
         <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
           Frequently Asked Questions
@@ -180,7 +180,7 @@ export default function VPS() {
           question="Placeholder"
           answer="this is a random fucking answer that no one will ever see... ever"
         />
-      </section>
+      </section> */}
     </div>
   );
 }

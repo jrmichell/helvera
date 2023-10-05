@@ -34,11 +34,11 @@ export default function WebHosting() {
           </div>
           <div className="flex gap-2">
             <FaCheck size={25} />
-            <li>Full Root Access</li>
+            <li>Low-Latency, Global Network</li>
           </div>
           <div className="flex gap-2">
             <FaCheck size={25} />
-            <li>Fast Server Setup</li>
+            <li>Instant Setup</li>
           </div>
           <div className="mt-4">
             <Link href="https://my.helvera.co.uk">
@@ -53,14 +53,28 @@ export default function WebHosting() {
           Affordable Web Hosting
         </h1>
         <div className="flex justify-center items-center">
-          <Card title="Starter">
+          <Card title="Basic">
             <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">1 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">2GB DDR4</p>
-              <p className="text-dark text-lg mt-2">40GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
+              <p className="text-dark text-lg mt-2">5 Mail Accounts</p>
+              <p className="text-dark text-lg mt-2">2 Hosted Domains</p>
+              <p className="text-dark text-lg mt-2">2 TB Bandwidth</p>
+              <p className="text-dark text-lg mt-2">3 GB SSD Storage Space</p>
+              <h1 className="text-4xl text-primary mt-6">
+                &pound;2.00 <span className="text-gray-500 text-xl">/mo</span>
+              </h1>
+            </div>
+            <div className="mt-2">
+              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                Coming Soon
+              </button>
+            </div>
+          </Card>
+          <Card title="Pro">
+            <div className="flex flex-col justify-center items-center">
+              <p className="text-dark text-lg mt-2">20 Mail Accounts</p>
+              <p className="text-dark text-lg mt-2">5 Hosted Domains</p>
+              <p className="text-dark text-lg mt-2">5 TB Bandwidth</p>
+              <p className="text-dark text-lg mt-2">10 GB SSD Storage Space</p>
               <h1 className="text-4xl text-primary mt-6">
                 &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
@@ -71,53 +85,15 @@ export default function WebHosting() {
               </button>
             </div>
           </Card>
-          <Card title="Enhanced">
+          <Card title="Enterprise">
             <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">2 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">4GB DDR4</p>
-              <p className="text-dark text-lg mt-2">80GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
+              <p className="text-dark text-lg mt-2">50 Mail Accounts</p>
+              <p className="text-dark text-lg mt-2">15 Hosted Domains</p>
+              <p className="text-dark text-lg mt-2">Unmetered Bandwidth</p>
+              <p className="text-dark text-lg mt-2">35 GB SSD Storage Space</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;10.00 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Power">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">3 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">8GB DDR4</p>
-              <p className="text-dark text-lg mt-2">120GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;17.50
+                &pound;8
                 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Ultimate">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">4 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">12GB DDR4</p>
-              <p className="text-dark text-lg mt-2">160GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 iPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;25.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
             </div>
             <div className="mt-2">
@@ -159,7 +135,7 @@ export default function WebHosting() {
           </div>
         </div>
       </section>
-      {/* FAQ */}
+      {/* FAQ
       <section className="mb-10">
         <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
           Frequently Asked Questions
@@ -180,7 +156,7 @@ export default function WebHosting() {
           question="Placeholder"
           answer="this is a random fucking answer that no one will ever see... ever"
         />
-      </section>
+      </section> */}
     </div>
   );
 }

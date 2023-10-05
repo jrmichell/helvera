@@ -178,20 +178,20 @@ export default function DediServers() {
           Frequently Asked Questions
         </h1>
         <FAQ
-          question="Placeholder"
-          answer="this is a random fucking answer that no one will ever see... ever"
+          question="What is a Dedicated Server?"
+          answer="A Dedicated Server is a single-tenant machine - this means you don't share it with anyone and have full, root access to every part of it. Unlike Shared Hosting, the full resources of a Dedicated Server is dedicated to you."
         />
         <FAQ
-          question="Placeholder"
-          answer="this is a random fucking answer that no one will ever see... ever"
+          question="How long does it take to deploy my Dedicated Server?"
+          answer="After we receive payment for your Dedicated Server order - it will usually be provisioned somewhere between 1 hour and 24 hours! Times may vary based on public holidays, weekends, etc. but rest assured, we will keep you updated every step of the way!"
         />
         <FAQ
-          question="Placeholder"
-          answer="this is a random fucking answer that no one will ever see... ever"
+          question="What can I host on my Dedicated Server?"
+          answer="You can host anything on your Dedicated Server! As long as you remain within our Terms of Service, you have full control and may host game servers with dedicated resources, websites, databases, etc."
         />
         <FAQ
-          question="Placeholder"
-          answer="this is a random fucking answer that no one will ever see... ever"
+          question="Looking for hardware not listed?"
+          answer="Reach out to us! Our team will almost certainly be able to source hardware to suit your desired specifications!"
         />
       </section>
     </div>

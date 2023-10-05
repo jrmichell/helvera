@@ -8,7 +8,7 @@ export default function Gdpr() {
       <section>
         <div className="left-[10%] text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl absolute max-w-[50%] top-24 sm:top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
           <h1>Helvera Hosting</h1>
-          <h1>GDPR</h1>
+          <h1>GDPR Statement</h1>
           <div className="z-1 top-52 max-w-[70%] font-normal text-gray-200 text-lg hidden 2xl:block py-2">
             We operate a simple to understand set of terms that you must comply
             with to use our services. Please read and review these frequently to

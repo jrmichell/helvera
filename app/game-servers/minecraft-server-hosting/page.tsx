@@ -269,7 +269,7 @@ export default function GameServers(ServerProps: ServerProps) {
                 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -292,7 +292,7 @@ export default function GameServers(ServerProps: ServerProps) {
                 &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft/iron-mc">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -310,7 +310,7 @@ export default function GameServers(ServerProps: ServerProps) {
                 &pound;15.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft/emerald">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -328,7 +328,7 @@ export default function GameServers(ServerProps: ServerProps) {
                 &pound;40.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft/tnt">
                   <Button content="Order Now" />
                 </Link>
               </div>

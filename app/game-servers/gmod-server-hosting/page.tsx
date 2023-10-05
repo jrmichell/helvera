@@ -89,10 +89,10 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;9.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;10.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/gmod/standard">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -109,10 +109,10 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;25.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;18.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/gmod/community-1">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -129,10 +129,10 @@ export default function GameServers() {
               <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
               <p className="text-dark text-lg mt-2">Instant Setup</p>
               <h1 className="text-4xl text-primary mt-6">
-                &pound;38.99 <span className="text-gray-500 text-xl">/mo</span>
+                &pound;26.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="/game-servers">
+                <Link href="https://my.helvera.co.uk/index.php?rp=/store/gmod/enhanced">
                   <Button content="Order Now" />
                 </Link>
               </div>
