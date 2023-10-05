@@ -92,15 +92,9 @@ export default function GameServers() {
                 &pound;9.99 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-<<<<<<< Updated upstream
-                <Link href="/game-servers">
-                  <Button content="Coming Soon" />
-                </Link>
-=======
                 <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
                   Coming Soon
                 </button>
->>>>>>> Stashed changes
               </div>
             </div>
           </Card>
@@ -118,15 +112,9 @@ export default function GameServers() {
                 &pound;19.99 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-<<<<<<< Updated upstream
-                <Link href="/game-servers">
-                  <Button content="Coming Soon" />
-                </Link>
-=======
                 <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
                   Coming Soon
                 </button>
->>>>>>> Stashed changes
               </div>
             </div>
           </Card>
@@ -144,15 +132,9 @@ export default function GameServers() {
                 &pound;26.99 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-<<<<<<< Updated upstream
-                <Link href="/game-servers">
-                  <Button content="Coming Soon" />
-                </Link>
-=======
                 <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
                   Coming Soon
                 </button>
->>>>>>> Stashed changes
               </div>
             </div>
           </Card>
