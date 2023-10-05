@@ -51,7 +51,7 @@ export default function DediServers() {
           </div>
         </ul>
       </section>
-      {/* London Servers */}
+      {/* US Servers */}
       <div className="flex flex-col mt-8">
         <div className="flex flex-col justify-center items-center">
           <Image src={US} alt="US Flag" width={50} />
@@ -146,7 +146,10 @@ export default function DediServers() {
         </div>
       </section>
       {/* Link Cards */}
-      <section className="flex justify-center items-center">
+      <section className="flex flex-col justify-center items-center">
+        <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
+          Other Locations
+        </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <Link href="/dedicated-servers/uk">
             <Card
