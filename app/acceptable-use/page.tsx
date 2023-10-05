@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 export default function Aup() {
   return (
-    <div className="absolute top-[25%] left-[45%]">
+    <div>
       {/* Coming Soon */}
       <Card title="AUP" content="This page is unavailable" />
     </div>
