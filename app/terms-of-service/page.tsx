@@ -10,7 +10,7 @@ export default function TermsOfService() {
     {/* Hero */}
       <section>
         <div className="left-[10%] text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl absolute max-w-[50%] top-24 sm:top-28 bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent p-4 md:p-10">
-          <h1>Helvera Hosting Ltd</h1>
+          <h1>Helvera Hosting</h1>
           <h1>Terms of Service</h1>
           <div className="z-1 top-52 max-w-[70%] text-gray-200 text-lg hidden 2xl:block py-2">
           We operate a simple to understand set of terms that you must comply with to use our services. Please read and review these frequently to stay up to date.
@@ -21,11 +21,11 @@ export default function TermsOfService() {
       {/* Terms of Service */}
       <section>
         <div className="p-10">
-          <h1 className="text-xl font-bold">Last Updated: 1st October 2023.</h1>
-          <p>Reason: Policy Updated</p>
+          <h1 className="text-xl font-bold">Last Updated: 4th October 2023.</h1>
+          <p>Reason: <span className="italic">Policy Updated - Changes to Technical section</span></p>
           <div className="py-6">
             <h1 className="text-xl font-bold">General Usage</h1>
-            <p>Helvera is a trading name associated with Helvera Hosting Ltd (Registered in England & Wales with company numbner 00000000).</p>
+            {/* <p>Helvera is a trading name associated with Helvera Hosting Ltd (Registered in England & Wales with company numbner 00000000).</p> */}
             <p>When ordering a service from us, we require you to be at least 13 years of age. If you're under the age of 13, you hereby confirm that you have consent from a parent or guardian allowing you to purchase a service with us.</p>
             <p>Our services must not be used for anything illegal under UK law. In addition to this, our service(s) cannot bne used for the purposes of hosting, facilitating or running any of the following, whether legal or not:</p>
           </div>

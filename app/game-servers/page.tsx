@@ -41,7 +41,7 @@ export default function GameServers() {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="/">
+            <Link href="https://my.helvera.co.uk">
               <Button content="Client Area" />
             </Link>
           </div>

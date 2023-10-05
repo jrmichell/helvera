@@ -39,8 +39,7 @@ export default function Home() {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-1">
-            {/* TODO: Add Client Area Link */}
-            <Link href="/">
+            <Link href="https://my.helvera.co.uk">
               <Button content="Client Area" />
             </Link>
           </div>

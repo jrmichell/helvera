@@ -39,10 +39,10 @@ export default function DediServers() {
           </div>
           <div className="flex gap-2">
             <FaCheck size={25} />
-            <li>Instant Server Setup</li>
+            <li>Fast Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="/">
+            <Link href="https://my.helvera.co.uk">
               <Button content="Client Area" />
             </Link>
           </div>

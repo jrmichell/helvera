@@ -46,25 +46,22 @@ export default function Footer() {
           <h1 className="font-bold uppercase mb-4">Clients</h1>
           <ul>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/clientarea.php">
                 Client Area
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://gcp.helvera.co.uk">
                 Game Control Panel
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/submitticket.php">
                 Submit a Support Ticket
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/"></Link>
-            </li>
-            <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/clientarea.php?action=invoices">
                 Invoices
               </Link>
             </li>
@@ -79,12 +76,12 @@ export default function Footer() {
           <h1 className="font-bold uppercase mb-4">Contact</h1>
           <ul>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/contact.php">
                 Pre-Sales Tickets
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/submitticket.php?step=2&deptid=1">
                 General Enquiries
               </Link>
             </li>
@@ -94,12 +91,12 @@ export default function Footer() {
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://status.helvera.co.uk/">
                 Service Status
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/index.php?rp=/knowledgebase">
                 Knowledgebase
               </Link>
             </li>

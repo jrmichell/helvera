@@ -15,7 +15,7 @@ const serverData = data.map((server) => (
     <div className="w-1/6">{server.price}</div>
     <div>
       <Link
-        href="/"
+        href="https://my.helvera.co.uk"
         className="p-2 bg-primary hover:bg-secondary hover:text-dark uppercase text-white duration-300 cursor-pointer"
       >
         Configure
