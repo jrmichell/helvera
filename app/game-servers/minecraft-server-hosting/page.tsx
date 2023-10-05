@@ -166,7 +166,7 @@ export default function GameServers(ServerProps: ServerProps) {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="/game-servers">
+            <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft">
               <Button content="Order Now" />
             </Link>
           </div>

@@ -42,7 +42,7 @@ export default function GameServers() {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="/game-servers">
+            <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust">
               <Button content="Order Now" />
             </Link>
           </div>

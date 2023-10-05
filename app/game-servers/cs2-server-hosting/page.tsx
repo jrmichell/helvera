@@ -93,7 +93,7 @@ export default function GameServers() {
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
-                  <Button content="Order Now" />
+                  <Button content="Coming Soon" />
                 </Link>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function GameServers() {
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
-                  <Button content="Order Now" />
+                  <Button content="Coming Soon" />
                 </Link>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function GameServers() {
               </h1>
               <div className="mt-2">
                 <Link href="/game-servers">
-                  <Button content="Order Now" />
+                  <Button content="Coming Soon" />
                 </Link>
               </div>
             </div>

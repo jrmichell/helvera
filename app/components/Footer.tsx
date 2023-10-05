@@ -66,7 +66,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/affiliates.php">
                 Affiliates
               </Link>
             </li>
@@ -86,7 +86,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="/">
+              <Link className="hover:underline" href="https://my.helvera.co.uk/submitticket.php?step=2&deptid=2">
                 Abuse Report Form
               </Link>
             </li>

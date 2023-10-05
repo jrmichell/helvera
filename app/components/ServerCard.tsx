@@ -16,7 +16,7 @@ const serverData = data.map((server) => (
     <div>
       <Link
         href="https://my.helvera.co.uk"
-        className="p-2 bg-primary hover:bg-secondary hover:text-dark uppercase text-white duration-300 cursor-pointer"
+        className="p-2 bg-primary hover:bg-secondary hover:text-dark uppercase rounded-xl text-white duration-300 cursor-pointer"
       >
         Configure
       </Link>
