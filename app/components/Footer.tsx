@@ -11,7 +11,7 @@ import {
 export default function Footer() {
   return (
     <div className="bg-dark flex flex-col justify-center items-center p-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 text-primary">
+      <div className="grid grid-cols-1 sm:grid-cols-4 text-primary">
         <div className="xl:text-left text-center mt-4 mr-8">
           <h1 className="font-bold uppercase mb-4">PRODUCTS</h1>
           <ul>
@@ -46,27 +46,42 @@ export default function Footer() {
           <h1 className="font-bold uppercase mb-4">Clients</h1>
           <ul>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/clientarea.php">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/clientarea.php"
+              >
                 Client Area
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://gcp.helvera.co.uk">
+              <Link
+                className="hover:underline"
+                href="https://gcp.helvera.co.uk"
+              >
                 Game Control Panel
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/submitticket.php">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/submitticket.php"
+              >
                 Submit a Support Ticket
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/clientarea.php?action=invoices">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/clientarea.php?action=invoices"
+              >
                 Invoices
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/affiliates.php">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/affiliates.php"
+              >
                 Affiliates
               </Link>
             </li>
@@ -76,27 +91,42 @@ export default function Footer() {
           <h1 className="font-bold uppercase mb-4">Contact</h1>
           <ul>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/contact.php">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/contact.php"
+              >
                 Pre-Sales Tickets
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/submitticket.php?step=2&deptid=1">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/submitticket.php?step=2&deptid=1"
+              >
                 General Enquiries
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/submitticket.php?step=2&deptid=2">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/submitticket.php?step=2&deptid=2"
+              >
                 Abuse Report Form
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://status.helvera.co.uk/">
+              <Link
+                className="hover:underline"
+                href="https://status.helvera.co.uk/"
+              >
                 Service Status
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="hover:underline" href="https://my.helvera.co.uk/index.php?rp=/knowledgebase">
+              <Link
+                className="hover:underline"
+                href="https://my.helvera.co.uk/index.php?rp=/knowledgebase"
+              >
                 Knowledgebase
               </Link>
             </li>
