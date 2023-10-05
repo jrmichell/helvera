@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import UK from "../../../public/images/US.png";
+import UK from "../../../public/images/UK.png";
+import US from "../../../public/images/US.png";
+import France from "../../../public/images/France.png";
 import Hero from "../../../public/images/hero-dedicated.png";
 import ServerCard from "../../components/ServerCard";
 import Panel from "../../components/Panel";
@@ -52,7 +54,7 @@ export default function DediServers() {
       {/* London Servers */}
       <div className="flex flex-col mt-8">
         <div className="flex flex-col justify-center items-center">
-          <Image src={UK} alt="UK Flag" width={50} />
+          <Image src={US} alt="US Flag" width={50} />
           <h2 className="flex justify-center items-center font-bold text-primary text-center text-xl mt-2 mb-10">
             United States Servers
           </h2>
@@ -141,6 +143,33 @@ export default function DediServers() {
               <MdManageAccounts size={40} />
             </Panel>
           </div>
+        </div>
+      </section>
+      {/* Link Cards */}
+      <section className="flex justify-center items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2">
+          <Link href="/dedicated-servers/uk">
+            <Card
+              title="United Kingdom"
+              content="Click here for United Kingdom Servers"
+              className="mt-10"
+            >
+              <div className="mt-4">
+                <Image src={UK} alt="UK Flag" width={50} />
+              </div>
+            </Card>
+          </Link>
+          <Link href="/dedicated-servers/france">
+            <Card
+              title="France"
+              content="Click here for France Servers"
+              className="mt-10"
+            >
+              <div className="mt-4">
+                <Image src={France} alt="France Flag" width={50} />
+              </div>
+            </Card>
+          </Link>
         </div>
       </section>
       {/* FAQ */}
