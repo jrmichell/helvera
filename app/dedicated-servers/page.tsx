@@ -9,6 +9,7 @@ import FAQ from "../components/FAQ";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { FaServer, FaHandHoldingMedical, FaCheck } from "react-icons/fa6";
 import { MdManageAccounts } from "react-icons/md";
+import Card from "../components/Card";
 
 export default function DediServers() {
   return (
@@ -49,18 +50,72 @@ export default function DediServers() {
         </ul>
       </section>
       {/* London Servers */}
-      <div className="flex flex-col my-10">
+      <div className="flex flex-col mt-8">
         <div className="flex flex-col justify-center items-center">
           <Image src={UK} alt="UK Flag" width={50} />
           <h2 className="flex justify-center items-center font-bold text-primary text-center text-xl mt-2 mb-10">
             United Kindgom Servers
           </h2>
         </div>
-        <div className="mx-auto w-[75%]">
+        <div className="mx-auto w-[85%] hidden lg:block">
           <ServerCard />
         </div>
+        <div className="flex flex-col justify-center items-center lg:hidden">
+          <div className="grid grid-cols-1 md:grid-cols-3">
+            <Card title="Iron">
+              <div className="flex flex-col justify-center items-center">
+                {/* TODO: Add an image icon for the plan */}
+                <p className="text-dark text-lg mt-2">20 Slots</p>
+                <p className="text-dark text-lg mt-2">2GB RAM</p>
+                <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1Gbps Network</p>
+                <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+            </Card>
+            <Card title="Emerald">
+              <div className="flex flex-col justify-center items-center">
+                {/* TODO: Add an image icon for the plan */}
+                <p className="text-dark text-lg mt-2">80 Slots</p>
+                <p className="text-dark text-lg mt-2">6GB RAM</p>
+                <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1Gbps Network</p>
+                <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;15.00{" "}
+                  <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+            </Card>
+            <Card title="TNT">
+              <div className="flex flex-col justify-center items-center">
+                {/* TODO: Add an image icon for the plan */}
+                <p className="text-dark text-lg mt-2">200 Slots</p>
+                <p className="text-dark text-lg mt-2">16GB RAM</p>
+                <p className="text-dark text-lg mt-2">50GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1Gbps Network</p>
+                <p className="text-dark text-lg mt-2">Unmetered Traffic</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;40.00{" "}
+                  <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+            </Card>
+          </div>
+          <Link href="https://my.helvera.co.uk">
+            <Button content="Configure Now" />
+          </Link>
+        </div>
+      </div>
+      {/* Advantages */}
+      <section>
         <div className="flex justify-center items-center">
-          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18">
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
             <Panel
               title="Blazing-Fast Hardware"
               content="We make sure to equip all of our Servers with the latest technology, making sure that you always get the best performance possible with your server."
@@ -87,7 +142,7 @@ export default function DediServers() {
             </Panel>
           </div>
         </div>
-      </div>
+      </section>
       {/* FAQ */}
       <section className="mb-10">
         <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
