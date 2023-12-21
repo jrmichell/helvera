@@ -45,7 +45,7 @@ export default function DediServers() {
             <li>Fast Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="https://my.helvera.co.uk">
+            <Link href="/">
               <Button content="Client Area" />
             </Link>
           </div>
@@ -106,7 +106,7 @@ export default function DediServers() {
               </div>
             </Card>
           </div>
-          <Link href="https://my.helvera.co.uk">
+          <Link href="/">
             <Button content="Configure Now" />
           </Link>
         </div>

@@ -22,7 +22,7 @@ export default function ServerCard() {
     <div className="flex flex-col justify-center items-center">
       <TitleCard />
       {serverData}
-      <Link className="mt-4" href="https://my.helvera.co.uk">
+      <Link className="mt-4" href="/">
         <Button content="Configure Now" />
       </Link>
     </div>

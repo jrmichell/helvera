@@ -41,7 +41,7 @@ export default function WebHosting() {
             <li>Instant Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="https://my.helvera.co.uk">
+            <Link href="/">
               <Button content="Client Area" />
             </Link>
           </div>

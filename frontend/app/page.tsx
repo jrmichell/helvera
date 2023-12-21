@@ -39,7 +39,7 @@ export default function Home() {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-1">
-            <Link href="https://my.helvera.co.uk">
+            <Link href="/">
               <Button content="Client Area" />
             </Link>
           </div>

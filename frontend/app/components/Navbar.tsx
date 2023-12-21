@@ -67,7 +67,7 @@ export default function Navbar() {
               </Link>
             </li>
             <button className="text-white hover:text-dark uppercase bg-primary hover:bg-secondary duration-300 font-bold px-4 py-2 rounded-lg mr-8">
-              <Link href="https://my.helvera.co.uk">Client Area</Link>
+              <Link href="/">Client Area</Link>
             </button>
           </ul>
         </nav>
@@ -126,7 +126,7 @@ export default function Navbar() {
                     Game Servers
                   </li>
                 </Link>
-                <Link onClick={toggleNav} href="https://my.helvera.co.uk">
+                <Link onClick={toggleNav} href="/">
                   <li className="text-dark text-center cursor-pointer uppercase bg-primary hover:bg-secondary duration-300 ml-5 mt-8 p-2 font-bold rounded-lg w-[55%] sm:w-[45%]">
                     Client Area
                   </li>

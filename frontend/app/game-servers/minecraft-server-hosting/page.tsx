@@ -161,7 +161,7 @@ export default function GameServers() {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft">
+            <Link href="/">
               <Button content="Order Now" />
             </Link>
           </div>
@@ -264,7 +264,7 @@ export default function GameServers() {
                 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -287,7 +287,7 @@ export default function GameServers() {
                 &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft/iron-mc">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -305,7 +305,7 @@ export default function GameServers() {
                 &pound;15.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft/emerald">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -323,7 +323,7 @@ export default function GameServers() {
                 &pound;40.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/minecraft/tnt">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>

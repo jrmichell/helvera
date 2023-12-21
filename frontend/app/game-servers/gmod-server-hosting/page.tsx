@@ -112,7 +112,7 @@ export default function GameServers() {
                 &pound;18.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/gmod/community-1">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -132,7 +132,7 @@ export default function GameServers() {
                 &pound;26.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/gmod/enhanced">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>

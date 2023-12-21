@@ -42,7 +42,7 @@ export default function GameServers() {
             <li>Instant Server Setup</li>
           </div>
           <div className="mt-4">
-            <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust">
+            <Link href="/">
               <Button content="Order Now" />
             </Link>
           </div>
@@ -92,7 +92,7 @@ export default function GameServers() {
                 &pound;14.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust/standard">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -112,7 +112,7 @@ export default function GameServers() {
                 &pound;28.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust/community">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
@@ -132,7 +132,7 @@ export default function GameServers() {
                 &pound;49.00 <span className="text-gray-500 text-xl">/mo</span>
               </h1>
               <div className="mt-2">
-                <Link href="https://my.helvera.co.uk/index.php?rp=/store/rust/ultimate">
+                <Link href="/">
                   <Button content="Order Now" />
                 </Link>
               </div>
