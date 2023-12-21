@@ -14,14 +14,7 @@ import GameCard from "../../components/GameCard";
 import Slider from "../../components/Slider";
 import Card from "../../components/Card";
 
-interface ServerProps {
-  price: string;
-  ram: string;
-}
-
-export default function GameServers(props: ServerProps) {
-  const { price, ram } = props;
-
+export default function GameServers() {
   // Define the state
   const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
   const [playersValue, setPlayersValue] = useState(30); // Set a default value
