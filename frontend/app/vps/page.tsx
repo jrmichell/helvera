@@ -53,79 +53,83 @@ export default function VPS() {
           Affordable VPS Hosting
         </h1>
         <div className="flex justify-center items-center">
-          <Card title="Starter">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">1 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">2GB DDR4</p>
-              <p className="text-dark text-lg mt-2">40GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 IPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Enhanced">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">2 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">4GB DDR4</p>
-              <p className="text-dark text-lg mt-2">80GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 IPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;10.00 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Power">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">3 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">8GB DDR4</p>
-              <p className="text-dark text-lg mt-2">120GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 IPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;17.50
-                <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Ultimate">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">4 vCore</p>
-              <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
-              <p className="text-dark text-lg mt-2">12GB DDR4</p>
-              <p className="text-dark text-lg mt-2">160GB SSD Storage</p>
-              <p className="text-dark text-lg mt-2">1 IPv4</p>
-              <p className="text-dark text-lg mt-2">Instant Setup</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;25.00 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
+            <Card title="Starter">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">1 vCore</p>
+                <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
+                <p className="text-dark text-lg mt-2">2GB DDR4</p>
+                <p className="text-dark text-lg mt-2">40GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1 IPv4</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+            <Card title="Enhanced">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">2 vCore</p>
+                <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
+                <p className="text-dark text-lg mt-2">4GB DDR4</p>
+                <p className="text-dark text-lg mt-2">80GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1 IPv4</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;10.00{" "}
+                  <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+            <Card title="Power">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">3 vCore</p>
+                <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
+                <p className="text-dark text-lg mt-2">8GB DDR4</p>
+                <p className="text-dark text-lg mt-2">120GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1 IPv4</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;17.50
+                  <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+            <Card title="Ultimate">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">4 vCore</p>
+                <p className="text-dark text-lg mt-2">1Gbps Unmetered</p>
+                <p className="text-dark text-lg mt-2">12GB DDR4</p>
+                <p className="text-dark text-lg mt-2">160GB SSD Storage</p>
+                <p className="text-dark text-lg mt-2">1 IPv4</p>
+                <p className="text-dark text-lg mt-2">Instant Setup</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;25.00{" "}
+                  <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+          </div>
         </div>
       </section>
       {/* Advantages */}

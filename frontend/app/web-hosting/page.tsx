@@ -53,55 +53,61 @@ export default function WebHosting() {
           Affordable Web Hosting
         </h1>
         <div className="flex justify-center items-center">
-          <Card title="Basic">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">5 Mail Accounts</p>
-              <p className="text-dark text-lg mt-2">2 Hosted Domains</p>
-              <p className="text-dark text-lg mt-2">2 TB Bandwidth</p>
-              <p className="text-dark text-lg mt-2">3 GB SSD Storage Space</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;2.00 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Pro">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">20 Mail Accounts</p>
-              <p className="text-dark text-lg mt-2">5 Hosted Domains</p>
-              <p className="text-dark text-lg mt-2">5 TB Bandwidth</p>
-              <p className="text-dark text-lg mt-2">10 GB SSD Storage Space</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
-          <Card title="Enterprise">
-            <div className="flex flex-col justify-center items-center">
-              <p className="text-dark text-lg mt-2">50 Mail Accounts</p>
-              <p className="text-dark text-lg mt-2">15 Hosted Domains</p>
-              <p className="text-dark text-lg mt-2">Unmetered Bandwidth</p>
-              <p className="text-dark text-lg mt-2">35 GB SSD Storage Space</p>
-              <h1 className="text-4xl text-primary mt-6">
-                &pound;8
-                <span className="text-gray-500 text-xl">/mo</span>
-              </h1>
-            </div>
-            <div className="mt-2">
-              <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
-                Coming Soon
-              </button>
-            </div>
-          </Card>
+          <div className="grid lg:grid-cols-3 grid-cols-1">
+            <Card title="Basic">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">5 Mail Accounts</p>
+                <p className="text-dark text-lg mt-2">2 Hosted Domains</p>
+                <p className="text-dark text-lg mt-2">2 TB Bandwidth</p>
+                <p className="text-dark text-lg mt-2">3 GB SSD Storage Space</p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;2.00 <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+            <Card title="Pro">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">20 Mail Accounts</p>
+                <p className="text-dark text-lg mt-2">5 Hosted Domains</p>
+                <p className="text-dark text-lg mt-2">5 TB Bandwidth</p>
+                <p className="text-dark text-lg mt-2">
+                  10 GB SSD Storage Space
+                </p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;5.00 <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+            <Card title="Enterprise">
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-dark text-lg mt-2">50 Mail Accounts</p>
+                <p className="text-dark text-lg mt-2">15 Hosted Domains</p>
+                <p className="text-dark text-lg mt-2">Unmetered Bandwidth</p>
+                <p className="text-dark text-lg mt-2">
+                  35 GB SSD Storage Space
+                </p>
+                <h1 className="text-4xl text-primary mt-6">
+                  &pound;8
+                  <span className="text-gray-500 text-xl">/mo</span>
+                </h1>
+              </div>
+              <div className="mt-2">
+                <button className="bg-gray-600 hover:bg-gray-400 font-bold duration-300 p-4 m-5 rounded-xl text-white">
+                  Coming Soon
+                </button>
+              </div>
+            </Card>
+          </div>
         </div>
       </section>
       {/* Advantages */}
