@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Hero from "../public/images/hero.png";
-import Card from "./components/Card";
+import HomeCard from "./components/HomeCard";
 import Panel from "./components/Panel";
 import Button from "./components/Button";
 import { FaServer, FaHandHoldingMedical } from "react-icons/fa";
@@ -47,12 +47,12 @@ export default function Home() {
         <Image src={Hero} alt="Hero Image" className="w-full" />
       </section>
       {/* Advantages */}
-      <section className="mt-10 mb-5">
+      <section className="m-10">
         <h1 className="text-xl font-bold flex justify-center items-center">
           Why Choose Helvera?
         </h1>
-        <div className="flex justify-center items-center">
-          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18">
+        <div className="flex justify-center items-center mt-8">
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 mb-4 gap-12">
             <Panel
               title="Blazing-Fast Hardware"
               content="We make sure to equip all of our Servers with the latest technology, making sure that you always get the best performance possible with your server."
@@ -81,46 +81,44 @@ export default function Home() {
         </div>
       </section>
       {/* Services */}
-      <section id="services" className="mt-10 mb-5 mx-24">
-        <div className="flex justify-center items-center">
-          <div className="grid lg:grid-cols-4 grid-cols-1">
-            <Card
+      <section id="services" className="m-10">
+        <div className="flex justify-center">
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12 m-8">
+            <HomeCard
               title="Game Servers"
               content="High quality game servers for a variety of games."
             >
               <Link href="/game-servers">
                 <Button content="View Pricing" />
               </Link>
-            </Card>
-            <Card
+            </HomeCard>
+            <HomeCard
               title="Virtual Private Servers"
               content="Looking for an affordable, yet powerful virtual machine?"
             >
               <Link href="/vps">
                 <Button content="View Pricing" />
               </Link>
-            </Card>
-            <Card
+            </HomeCard>
+            <HomeCard
               title="Dedicated Servers"
               content="High performing, multipurpose dedicated servers."
             >
               <Link href="/dedicated-servers">
                 <Button content="View Pricing" />
               </Link>
-            </Card>
-            <Card
+            </HomeCard>
+            <HomeCard
               title="Web Hosting"
               content="A fast and reliable place to host your beautiful website!"
             >
               <Link href="/web-hosting">
                 <Button content="View Pricing" />
               </Link>
-            </Card>
+            </HomeCard>
           </div>
         </div>
       </section>
-      {/* Partners and Vendors */}
-      <section className="mt-10 mb-5"></section>
     </>
   );
 }
