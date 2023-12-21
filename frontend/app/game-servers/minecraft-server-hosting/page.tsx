@@ -19,7 +19,7 @@ interface ServerProps {
   ram: string;
 }
 
-export default function GameServers(ServerProps: ServerProps) {
+export default function GameServers(props: ServerProps) {
   // Define the state
   const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
   const [playersValue, setPlayersValue] = useState(30); // Set a default value
