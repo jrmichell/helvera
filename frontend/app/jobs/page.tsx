@@ -20,35 +20,37 @@ export default function Jobs() {
         Job Openings
       </h1>
       <section>
-        <div className="flex justify-center items-center">
-          <JobCard
-            job="Web Developer"
-            description="This career description is meant to be a simple placeholder."
-          >
-            <p className="text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero,
-              natus repudiandae assumenda adipisci officia tenetur, optio
-              dignissimos, ullam aut voluptatum delectus a! Consequuntur facilis
-              illum ratione earum minima nesciunt fuga.
-            </p>
-            <div className="flex justify-center items-center m-2">
-              <Button content="Apply Now" />
-            </div>
-          </JobCard>
-          <JobCard
-            job="Web Developer"
-            description="This career description is meant to be a simple placeholder."
-          >
-            <p className="text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero,
-              natus repudiandae assumenda adipisci officia tenetur, optio
-              dignissimos, ullam aut voluptatum delectus a! Consequuntur facilis
-              illum ratione earum minima nesciunt fuga.
-            </p>
-            <div className="flex justify-center items-center m-2">
-              <Button content="Apply Now" />
-            </div>
-          </JobCard>
+        <div className="flex justify-center">
+          <div className="grid lg:grid-cols-2 grid-cols-1 m-10">
+            <JobCard
+              job="Web Developer"
+              description="This career description is meant to be a simple placeholder."
+            >
+              <p className="text-center">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero,
+                natus repudiandae assumenda adipisci officia tenetur, optio
+                dignissimos, ullam aut voluptatum delectus a! Consequuntur
+                facilis illum ratione earum minima nesciunt fuga.
+              </p>
+              <div className="flex justify-center items-center m-2">
+                <Button content="Apply Now" />
+              </div>
+            </JobCard>
+            <JobCard
+              job="Web Developer"
+              description="This career description is meant to be a simple placeholder."
+            >
+              <p className="text-center">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero,
+                natus repudiandae assumenda adipisci officia tenetur, optio
+                dignissimos, ullam aut voluptatum delectus a! Consequuntur
+                facilis illum ratione earum minima nesciunt fuga.
+              </p>
+              <div className="flex justify-center items-center m-2">
+                <Button content="Apply Now" />
+              </div>
+            </JobCard>
+          </div>
         </div>
       </section>
     </div>
