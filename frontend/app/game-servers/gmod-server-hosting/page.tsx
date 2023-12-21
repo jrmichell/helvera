@@ -51,7 +51,7 @@ export default function GameServers() {
       {/* Features */}
       <section>
         <div className="flex justify-center items-center">
-          <div className="grid xl:grid-cols-3 grid-cols-1 m-18">
+          <div className="grid lg:grid-cols-3 grid-cols-1 m-18 gap-8">
             <Panel
               title="High Performance"
               content="Our servers are powered by the latest AMD Ryzen processors and

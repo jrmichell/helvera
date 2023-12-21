@@ -72,7 +72,9 @@ export default function GameServers() {
               Looking for a server for a game we don't host?&nbsp;
             </div>
             <span className="text-primary hover:underline">
-              <Link href="https://my.helvera.co.uk/contact.php">Contact us.</Link>
+              <Link href="https://my.helvera.co.uk/contact.php">
+                Contact us.
+              </Link>
             </span>
           </div>
         </div>
@@ -83,7 +85,7 @@ export default function GameServers() {
           Why Choose Helvera?
         </h1>
         <div className="flex justify-center items-center">
-          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18">
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 m-18 gap-8">
             <Panel
               title="Blazing-Fast Hardware"
               content="We make sure to equip all of our Servers with the latest technology, making sure that you always get the best performance possible with your server."
