@@ -20,6 +20,8 @@ interface ServerProps {
 }
 
 export default function GameServers(props: ServerProps) {
+  const { price, ram } = props;
+
   // Define the state
   const [modPackSelection, setModPackSelection] = useState("vanilla"); // Set a default value
   const [playersValue, setPlayersValue] = useState(30); // Set a default value
