@@ -111,26 +111,6 @@ export default function GameServers() {
           </div>
         </div>
       </section>
-      {/* FAQ
-      <h1 className="text-xl font-bold flex justify-center items-center mt-10 mb-2">
-        Frequently Asked Questions
-      </h1>
-      <FAQ
-        question="Placeholder"
-        answer="this is a random fucking answer that no one will ever see... ever"
-      />
-      <FAQ
-        question="Placeholder"
-        answer="this is a random fucking answer that no one will ever see... ever"
-      />
-      <FAQ
-        question="Placeholder"
-        answer="this is a random fucking answer that no one will ever see... ever"
-      />
-      <FAQ
-        question="Placeholder"
-        answer="this is a random fucking answer that no one will ever see... ever"
-      /> */}
     </div>
   );
 }

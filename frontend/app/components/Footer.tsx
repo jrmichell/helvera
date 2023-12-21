@@ -133,7 +133,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center text-primary">
+      <div className="flex flex-col items-center justify-center text-primary mt-8">
         <Image src={FooterImg} alt="Logo" width={240} className="mb-6" />
         <div className="flex justify-center items-center">
           <FaCcPaypal
