@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import GameCard from "../components/GameCard";
-import FAQ from "../components/FAQ";
 import Button from "../components/Button";
 import { FaCheck, FaHandHoldingMedical, FaServer } from "react-icons/fa6";
 import Hero from "../../public/images/hero-game.png";
