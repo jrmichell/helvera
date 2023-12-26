@@ -24,13 +24,12 @@ const Slider: React.FC<SliderProps> = ({
   // Define the state
   const [value, setValue] = useState(initialValue);
 
-  // Define the event handler
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     // The new value is the value of the input element
     const newValue = parseInt(event.target.value, 10);
     setValue(newValue);
     onChange(newValue);
-  };
+  }
 
   return (
     <div className="mb-4 flex flex-col items-star w-full">
